@@ -1,0 +1,290 @@
+{% extends "base.html" %}
+
+{% block title %}成績確認 - AWS Certified Cloud Practitioner 試験対策{% endblock %}
+
+{% block extra_css %}
+<style>
+    .score-card {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+    }
+    .chart-container {
+        position: relative;
+        height: 300px;
+    }
+    .score-trend {
+        background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        color: white;
+    }
+    .stats-card {
+        background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        color: white;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-12">
+        <h2><i class="bi bi-graph-up"></i> 学習成績</h2>
+        <p class="text-muted">あなたの学習進捗と成績を確認できます</p>
+    </div>
+</div>
+
+<!-- 成績サマリー -->
+<div id="summarySection" class="row mb-4">
+    <div class="col-md-3 mb-3">
+        <div class="card score-card text-center">
+            <div class="card-body">
+                <h3 id="averageScore" class="display-4">0%</h3>
+                <p class="mb-0">平均得点</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card stats-card text-center">
+            <div class="card-body">
+                <h3 id="totalAttempts" class="display-4">0</h3>
+                <p class="mb-0">受験回数</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card score-trend text-center">
+            <div class="card-body">
+                <h3 id="bestScore" class="display-4">0%</h3>
+                <p class="mb-0">最高得点</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card aws-orange text-center">
+            <div class="card-body">
+                <h3 id="totalStudyTime" class="display-4">0分</h3>
+                <p class="mb-0">総学習時間</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 成績推移グラフ -->
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="mb-0"><i class="bi bi-graph-up"></i> 成績推移</h5>
+            </div>
+            <div class="card-body">
+                <div class="chart-container">
+                    <canvas id="scoreChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 詳細成績履歴 -->
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0"><i class="bi bi-list"></i> 詳細履歴</h5>
+                <button class="btn btn-outline-danger btn-sm" onclick="clearScores()">
+                    <i class="bi bi-trash"></i> 成績をクリア
+                </button>
+            </div>
+            <div class="card-body">
+                <div id="scoresTable">
+                    <!-- 成績テーブルがここに動的に生成される -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- データなしの場合の表示 -->
+<div id="noDataSection" class="row" style="display: none;">
+    <div class="col-12">
+        <div class="card text-center">
+            <div class="card-body py-5">
+                <i class="bi bi-graph-up display-1 text-muted mb-3"></i>
+                <h3>まだ成績データがありません</h3>
+                <p class="text-muted mb-4">問題練習を開始して学習記録を蓄積しましょう</p>
+                <a href="{{ url_for('exam') }}" class="btn btn-primary">
+                    <i class="bi bi-play"></i> 問題練習を開始
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+let scoreChart = null;
+
+function loadScores() {
+    const scores = JSON.parse(localStorage.getItem('awsExamScores') || '[]');
+    
+    if (scores.length === 0) {
+        document.getElementById('summarySection').style.display = 'none';
+        document.getElementById('noDataSection').style.display = 'block';
+        return;
+    }
+    
+    document.getElementById('summarySection').style.display = 'flex';
+    document.getElementById('noDataSection').style.display = 'none';
+    
+    // サマリー計算
+    const totalAttempts = scores.length;
+    const averageScore = Math.round(scores.reduce((sum, score) => sum + score.score, 0) / totalAttempts);
+    const bestScore = Math.max(...scores.map(score => score.score));
+    const totalStudyTime = Math.round(scores.reduce((sum, score) => sum + score.timeSpent, 0) / 60);
+    
+    // サマリー表示
+    document.getElementById('averageScore').textContent = averageScore + '%';
+    document.getElementById('totalAttempts').textContent = totalAttempts;
+    document.getElementById('bestScore').textContent = bestScore + '%';
+    document.getElementById('totalStudyTime').textContent = totalStudyTime + '分';
+    
+    // グラフ描画
+    drawChart(scores);
+    
+    // テーブル表示
+    displayScoresTable(scores);
+}
+
+function drawChart(scores) {
+    const ctx = document.getElementById('scoreChart').getContext('2d');
+    
+    // 既存のチャートを破棄
+    if (scoreChart) {
+        scoreChart.destroy();
+    }
+    
+    const labels = scores.map((score, index) => `第${index + 1}回`);
+    const data = scores.map(score => score.score);
+    
+    scoreChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: '得点率 (%)',
+                data: data,
+                borderColor: '#667eea',
+                backgroundColor: 'rgba(102, 126, 234, 0.1)',
+                borderWidth: 3,
+                fill: true,
+                tension: 0.4,
+                pointBackgroundColor: '#667eea',
+                pointBorderColor: '#ffffff',
+                pointBorderWidth: 2,
+                pointRadius: 6
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    display: false
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    max: 100,
+                    ticks: {
+                        callback: function(value) {
+                            return value + '%';
+                        }
+                    }
+                }
+            },
+            elements: {
+                point: {
+                    hoverRadius: 8
+                }
+            }
+        }
+    });
+}
+
+function displayScoresTable(scores) {
+    const tableContainer = document.getElementById('scoresTable');
+    
+    if (scores.length === 0) {
+        tableContainer.innerHTML = '<p class="text-muted text-center">成績データがありません</p>';
+        return;
+    }
+    
+    let tableHTML = `
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead class="table-dark">
+                    <tr>
+                        <th>回数</th>
+                        <th>実施日時</th>
+                        <th>得点</th>
+                        <th>正解数</th>
+                        <th>所要時間</th>
+                        <th>評価</th>
+                    </tr>
+                </thead>
+                <tbody>
+    `;
+    
+    scores.reverse().forEach((score, index) => {
+        const date = new Date(score.date);
+        const dateString = date.toLocaleDateString('ja-JP') + ' ' + date.toLocaleTimeString('ja-JP', {hour: '2-digit', minute: '2-digit'});
+        
+        let badge = '';
+        let badgeClass = '';
+        if (score.score >= 80) {
+            badge = '合格レベル';
+            badgeClass = 'bg-success';
+        } else if (score.score >= 70) {
+            badge = '良好';
+            badgeClass = 'bg-info';
+        } else if (score.score >= 60) {
+            badge = '要復習';
+            badgeClass = 'bg-warning';
+        } else {
+            badge = '要基礎学習';
+            badgeClass = 'bg-danger';
+        }
+        
+        tableHTML += `
+            <tr>
+                <td><strong>${scores.length - index}</strong></td>
+                <td>${dateString}</td>
+                <td><strong>${score.score}%</strong></td>
+                <td>${score.correctAnswers} / ${score.totalQuestions}</td>
+                <td>${score.timeString}</td>
+                <td><span class="badge ${badgeClass}">${badge}</span></td>
+            </tr>
+        `;
+    });
+    
+    tableHTML += `
+                </tbody>
+            </table>
+        </div>
+    `;
+    
+    tableContainer.innerHTML = tableHTML;
+}
+
+function clearScores() {
+    if (confirm('すべての成績データを削除しますか？この操作は取り消せません。')) {
+        localStorage.removeItem('awsExamScores');
+        location.reload();
+    }
+}
+
+// ページ読み込み時に成績を表示
+document.addEventListener('DOMContentLoaded', loadScores);
+</script>
+{% endblock %}

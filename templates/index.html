@@ -1,0 +1,165 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- ヒーローセクション -->
+<div class="row mb-5">
+    <div class="col-12">
+        <div class="card aws-orange text-center">
+            <div class="card-body py-5">
+                <h1 class="display-4 mb-3">
+                    <i class="bi bi-cloud-check"></i> 
+                    AWS Certified Cloud Practitioner
+                </h1>
+                <p class="lead mb-4">試験対策問題集で効率的に学習しよう</p>
+                <a href="{{ url_for('exam') }}" class="btn btn-light btn-lg">
+                    <i class="bi bi-play-circle"></i> 問題練習を開始
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 機能紹介 -->
+<div class="row mb-5">
+    <div class="col-md-4 mb-4">
+        <div class="card h-100 question-card">
+            <div class="card-body text-center">
+                <i class="bi bi-question-circle display-4 text-primary mb-3"></i>
+                <h5 class="card-title">豊富な問題数</h5>
+                <p class="card-text">
+                    AWS Cloud Practitioner試験の全範囲をカバーする
+                    厳選された問題を収録
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card h-100 question-card">
+            <div class="card-body text-center">
+                <i class="bi bi-graph-up display-4 text-success mb-3"></i>
+                <h5 class="card-title">学習進捗管理</h5>
+                <p class="card-text">
+                    正答率や学習履歴を記録し、
+                    効率的な学習をサポート
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card h-100 question-card">
+            <div class="card-body text-center">
+                <i class="bi bi-lightbulb display-4 text-warning mb-3"></i>
+                <h5 class="card-title">詳細な解説</h5>
+                <p class="card-text">
+                    各問題に詳しい解説を付属し、
+                    理解を深める学習が可能
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 試験範囲 -->
+<div class="row mb-5">
+    <div class="col-12">
+        <h2 class="mb-4"><i class="bi bi-list-check"></i> 試験範囲</h2>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <div class="card">
+                    <div class="card-header aws-blue">
+                        <h5 class="mb-0"><i class="bi bi-cloud"></i> クラウドの概念</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled mb-0">
+                            <li><i class="bi bi-check-circle text-success"></i> クラウドコンピューティングの定義</li>
+                            <li><i class="bi bi-check-circle text-success"></i> AWSクラウドの価値提案</li>
+                            <li><i class="bi bi-check-circle text-success"></i> クラウド経済学</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <div class="card">
+                    <div class="card-header aws-blue">
+                        <h5 class="mb-0"><i class="bi bi-shield-check"></i> セキュリティとコンプライアンス</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled mb-0">
+                            <li><i class="bi bi-check-circle text-success"></i> 責任共有モデル</li>
+                            <li><i class="bi bi-check-circle text-success"></i> AWSセキュリティサービス</li>
+                            <li><i class="bi bi-check-circle text-success"></i> コンプライアンス</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <div class="card">
+                    <div class="card-header aws-blue">
+                        <h5 class="mb-0"><i class="bi bi-gear"></i> テクノロジー</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled mb-0">
+                            <li><i class="bi bi-check-circle text-success"></i> AWSコアサービス</li>
+                            <li><i class="bi bi-check-circle text-success"></i> グローバルインフラストラクチャ</li>
+                            <li><i class="bi bi-check-circle text-success"></i> サポートリソース</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <div class="card">
+                    <div class="card-header aws-blue">
+                        <h5 class="mb-0"><i class="bi bi-currency-dollar"></i> 請求と料金</h5>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled mb-0">
+                            <li><i class="bi bi-check-circle text-success"></i> 料金モデル</li>
+                            <li><i class="bi bi-check-circle text-success"></i> コスト管理</li>
+                            <li><i class="bi bi-check-circle text-success"></i> サポートプラン</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- クイックスタート -->
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="mb-0"><i class="bi bi-rocket"></i> 学習を始めよう</h3>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-8">
+                        <p class="mb-3">
+                            AWS Certified Cloud Practitioner認定は、AWSクラウドの基礎知識を証明する入門レベルの資格です。
+                            この問題集で効率的に学習し、合格を目指しましょう。
+                        </p>
+                        <div class="d-flex gap-2 flex-wrap">
+                            <a href="{{ url_for('exam') }}?count=10" class="btn btn-primary">
+                                <i class="bi bi-play"></i> 10問練習
+                            </a>
+                            <a href="{{ url_for('exam') }}?count=20" class="btn btn-outline-primary">
+                                <i class="bi bi-play"></i> 20問練習
+                            </a>
+                            <a href="{{ url_for('exam') }}?count=30" class="btn btn-outline-primary">
+                                <i class="bi bi-play"></i> 30問練習
+                            </a>
+                            <a href="{{ url_for('scores') }}" class="btn btn-outline-secondary">
+                                <i class="bi bi-graph-up"></i> 成績確認
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <i class="bi bi-award display-1 text-warning"></i>
+                        <p class="mt-2 text-muted">目指せ合格！</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
