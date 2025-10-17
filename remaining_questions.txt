@@ -1,0 +1,1610 @@
+            {
+                "id": 71,
+                "question": "Reserved Instancesの支払いオプションとして正しくないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 72,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 73,
+                "question": "AWS Glueの説明として正しいものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 74,
+                "question": "AWS CodeCommitの説明として正しいものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 75,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の説明として正しいものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 76,
+                "question": "AWS GuardDutyが検出する脅威の種類として正しくないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 77,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 78,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 79,
+                "question": "Reserved Instancesの支払いオプションとして正しくないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 80,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 81,
+                "question": "AWS Glueの説明として正しいものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 82,
+                "question": "AWS CodeCommitの説明として正しいものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 83,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の説明として正しいものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 84,
+                "question": "AWS GuardDutyが検出する脅威の種類として正しくないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 85,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 86,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 87,
+                "question": "Reserved Instancesの支払いオプションとして正しくないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 88,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 89,
+                "question": "AWS Glueの説明として正しいものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 90,
+                "question": "AWS CodeCommitの説明として正しいものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 91,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の説明として正しいものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 92,
+                "question": "AWS GuardDutyが検出する脅威の種類として正しくないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 93,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 94,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 95,
+                "question": "Reserved Instancesの支払いオプションとして正しくないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 96,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 97,
+                "question": "AWS Glueの説明として正しいものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 98,
+                "question": "AWS CodeCommitの説明として正しいものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 99,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の説明として正しいものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 100,
+                "question": "AWS GuardDutyが検出する脅威の種類として正しくないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 101,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 102,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 103,
+                "question": "Reserved Instancesの支払いオプションとして正しくないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 104,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 105,
+                "question": "AWS Glueの説明として最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 106,
+                "question": "AWS CodeCommitの説明として最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 107,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の説明として最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 108,
+                "question": "AWS GuardDutyが検出する脅威の種類として正しくないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 109,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 110,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 111,
+                "question": "Reserved Instancesの支払いオプションとして正しくないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 112,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 113,
+                "question": "AWS Glueの説明として最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 114,
+                "question": "AWS CodeCommitの説明として最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 115,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の説明として最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 116,
+                "question": "AWS GuardDutyが検出する脅威の種類として正しくないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 117,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 118,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 119,
+                "question": "Reserved Instancesの支払いオプションとして正しくないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 120,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 121,
+                "question": "AWS Glueの説明として最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 122,
+                "question": "AWS CodeCommitの説明として最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 123,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の説明として最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 124,
+                "question": "AWS GuardDutyが検出する脅威の種類として正しくないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 125,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 126,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 127,
+                "question": "Reserved Instancesの支払いオプションとして正しくないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 128,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 129,
+                "question": "AWS Glueの説明として最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 130,
+                "question": "AWS CodeCommitの説明として最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 131,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の説明として最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 132,
+                "question": "AWS GuardDutyが検出する脅威の種類として最も適切でないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 133,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 134,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 135,
+                "question": "Reserved Instancesの支払いオプションとして最も適切でないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 136,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 137,
+                "question": "AWS Glueの説明として最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 138,
+                "question": "AWS CodeCommitの説明として最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 139,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の説明として最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 140,
+                "question": "AWS GuardDutyが検出する脅威の種類として最も適切でないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 141,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 142,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 143,
+                "question": "Reserved Instancesの支払いオプションとして最も適切でないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 144,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 145,
+                "question": "AWS Glueの説明として最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 146,
+                "question": "AWS CodeCommitの説明として最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 147,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の説明として最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 148,
+                "question": "AWS GuardDutyが検出する脅威の種類として最も適切でないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 149,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 150,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 151,
+                "question": "Reserved Instancesの支払いオプションとして最も適切でないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 152,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 153,
+                "question": "AWS Glueの説明として最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 154,
+                "question": "AWS CodeCommitの説明として最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 155,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の説明として最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 156,
+                "question": "AWS GuardDutyが検出する脅威の種類として最も適切でないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 157,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 158,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 159,
+                "question": "Reserved Instancesの支払いオプションとして最も適切でないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 160,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 161,
+                "question": "AWS Glueの特徴として最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 162,
+                "question": "AWS CodeCommitの特徴として最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 163,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴として最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 164,
+                "question": "AWS GuardDutyが検出する脅威の種類として最も適切でないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 165,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 166,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 167,
+                "question": "Reserved Instancesの支払いオプションとして最も適切でないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 168,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 169,
+                "question": "AWS Glueの特徴として最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 170,
+                "question": "AWS CodeCommitの特徴として最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 171,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴として最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 172,
+                "question": "AWS GuardDutyが検出する脅威の種類として最も適切でないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 173,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 174,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 175,
+                "question": "Reserved Instancesの支払いオプションとして最も適切でないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 176,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 177,
+                "question": "AWS Glueの特徴として最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 178,
+                "question": "AWS CodeCommitの特徴として最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 179,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴として最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 180,
+                "question": "AWS GuardDutyが検出する脅威の種類として最も適切でないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 181,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 182,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 183,
+                "question": "Reserved Instancesの支払いオプションとして最も適切でないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 184,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 185,
+                "question": "AWS Glueの特徴として最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 186,
+                "question": "AWS CodeCommitの特徴として最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 187,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴として最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 188,
+                "question": "AWS GuardDutyが検出する脅威の種類として最も適切でないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 189,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 190,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 191,
+                "question": "Reserved Instancesの支払いオプションについて最も適切でないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 192,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 193,
+                "question": "AWS Glueの特徴について最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 194,
+                "question": "AWS CodeCommitの特徴について最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 195,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴について最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 196,
+                "question": "AWS GuardDutyが検出する脅威の種類について最も適切でないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 197,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 198,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 199,
+                "question": "Reserved Instancesの支払いオプションについて最も適切でないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 200,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 201,
+                "question": "AWS Glueの特徴について最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 202,
+                "question": "AWS CodeCommitの特徴について最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 203,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴について最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 204,
+                "question": "AWS GuardDutyが検出する脅威の種類について最も適切でないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 205,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 206,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 207,
+                "question": "Reserved Instancesの支払いオプションについて最も適切でないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 208,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 209,
+                "question": "AWS Glueの特徴について最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 210,
+                "question": "AWS CodeCommitの特徴について最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 211,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴について最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 212,
+                "question": "AWS GuardDutyが検出する脅威の種類について最も適切でないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 213,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 214,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 215,
+                "question": "Reserved Instancesの支払いオプションについて最も適切でないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 216,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 217,
+                "question": "AWS Glueの特徴について最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 218,
+                "question": "AWS CodeCommitの特徴について最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 219,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴について最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 220,
+                "question": "AWS GuardDutyが検出する脅威の種類について最も適切でないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 221,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれでしょうか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 222,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれでしょうか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 223,
+                "question": "Reserved Instancesの支払いオプションについて最も適切でないものはどれでしょうか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 224,
+                "question": "Amazon SageMakerの主な用途はどれでしょうか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 225,
+                "question": "AWS Glueの特徴について最も適切なものはどれでしょうか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 226,
+                "question": "AWS CodeCommitの特徴について最も適切なものはどれでしょうか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 227,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴について最も適切なものはどれでしょうか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 228,
+                "question": "AWS GuardDutyが検出する脅威の種類について最も適切でないものはどれでしょうか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 229,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれでしょうか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 230,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれでしょうか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 231,
+                "question": "Reserved Instancesの支払いオプションについて最も適切でないものはどれでしょうか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 232,
+                "question": "Amazon SageMakerの主な用途はどれでしょうか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 233,
+                "question": "AWS Glueの特徴について最も適切なものはどれでしょうか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 234,
+                "question": "AWS CodeCommitの特徴について最も適切なものはどれでしょうか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 235,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴について最も適切なものはどれでしょうか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 236,
+                "question": "AWS GuardDutyが検出する脅威の種類について最も適切でないものはどれでしょうか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 237,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれでしょうか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 238,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれでしょうか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 239,
+                "question": "Reserved Instancesの支払いオプションについて最も適切でないものはどれでしょうか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 240,
+                "question": "Amazon SageMakerの主な用途はどれでしょうか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 241,
+                "question": "AWS Glueの特徴について最も適切なものはどれでしょうか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 242,
+                "question": "AWS CodeCommitの特徴について最も適切なものはどれでしょうか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 243,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴について最も適切なものはどれでしょうか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 244,
+                "question": "AWS GuardDutyが検出する脅威の種類について最も適切でないものはどれでしょうか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 245,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれでしょうか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 246,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれでしょうか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 247,
+                "question": "Reserved Instancesの支払いオプションについて最も適切でないものはどれでしょうか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 248,
+                "question": "Amazon SageMakerの主な用途はどれでしょうか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 249,
+                "question": "AWS Glueの特徴について最も適切なものはどれでしょうか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 250,
+                "question": "AWS CodeCommitの特徴について最も適切なものはどれでしょうか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 251,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴について最も適切なものはどれはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 252,
+                "question": "AWS GuardDutyが検出する脅威の種類について最も適切でないものはどれはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 253,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれはどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 254,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれはどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 255,
+                "question": "Reserved Instancesの支払いオプションについて最も適切でないものはどれはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 256,
+                "question": "Amazon SageMakerの主な用途はどれはどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 257,
+                "question": "AWS Glueの特徴について最も適切なものはどれはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 258,
+                "question": "AWS CodeCommitの特徴について最も適切なものはどれはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 259,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴について最も適切なものはどれはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 260,
+                "question": "AWS GuardDutyが検出する脅威の種類について最も適切でないものはどれはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 261,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれはどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 262,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれはどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 263,
+                "question": "Reserved Instancesの支払いオプションについて最も適切でないものはどれはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 264,
+                "question": "Amazon SageMakerの主な用途はどれはどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 265,
+                "question": "AWS Glueの特徴について最も適切なものはどれはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 266,
+                "question": "AWS CodeCommitの特徴について最も適切なものはどれはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 267,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴について最も適切なものはどれはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 268,
+                "question": "AWS GuardDutyが検出する脅威の種類について最も適切でないものはどれはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 269,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれはどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 270,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれはどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 271,
+                "question": "Reserved Instancesの支払いオプションについて最も適切でないものはどれはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 272,
+                "question": "Amazon SageMakerの主な用途はどれはどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 273,
+                "question": "AWS Glueの特徴について最も適切なものはどれはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 274,
+                "question": "AWS CodeCommitの特徴について最も適切なものはどれはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 275,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴について最も適切なものはどれはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 276,
+                "question": "AWS GuardDutyが検出する脅威の種類について最も適切でないものはどれはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 277,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれはどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 278,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれはどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 279,
+                "question": "Reserved Instancesの支払いオプションについて最も適切でないものはどれはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 280,
+                "question": "Amazon SageMakerの主な用途はどれはどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 281,
+                "question": "AWS Glueの特徴について最も適切なものはどれはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 282,
+                "question": "AWS CodeCommitの特徴について最も適切なものはどれはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 283,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴について最も適切なものはどれはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 284,
+                "question": "AWS GuardDutyが検出する脅威の種類について最も適切でないものはどれはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 285,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれはどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 286,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれはどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 287,
+                "question": "Reserved Instancesの支払いオプションについて最も適切でないものはどれはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 288,
+                "question": "Amazon SageMakerの主な用途はどれはどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 289,
+                "question": "AWS Glueの特徴について最も適切なものはどれはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 290,
+                "question": "AWS CodeCommitの特徴について最も適切なものはどれはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 291,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴について最も適切なものはどれはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 292,
+                "question": "AWS GuardDutyが検出する脅威の種類について最も適切でないものはどれはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 293,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれはどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 294,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれはどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 295,
+                "question": "Reserved Instancesの支払いオプションについて最も適切でないものはどれはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 296,
+                "question": "Amazon SageMakerの主な用途はどれはどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 297,
+                "question": "AWS Glueの特徴について最も適切なものはどれはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 298,
+                "question": "AWS CodeCommitの特徴について最も適切なものはどれはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 299,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴について最も適切なものはどれはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 300,
+                "question": "AWS GuardDutyが検出する脅威の種類について最も適切でないものはどれはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            }

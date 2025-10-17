@@ -1,0 +1,1645 @@
+            {
+                "id": 66,
+                "question": "CloudWatchメトリクスのデータポイントの保持期間について正しいものはどれか。",
+                "choices": ['すべて15か月間保持される', '解像度によって異なる保持期間', '30日間のみ保持される', '永続的に保持される'],
+                "answer": 1,
+                "explanation": "CloudWatchメトリクスは、データポイントの解像度（1分、5分、1時間等）によって異なる保持期間が設定されています。"
+            },
+            {
+                "id": 67,
+                "question": "CloudWatch Logsのログストリームについて正しい説明はどれか。",
+                "choices": ['複数のソースからのログを混在させることができる', '単一のソースからのログイベントのシーケンス', 'ログの暗号化機能', 'ログの自動削除機能'],
+                "answer": 1,
+                "explanation": "ログストリームは、同じソースからのログイベントのシーケンスです。"
+            },
+            {
+                "id": 68,
+                "question": "CloudWatch Alarmの状態として正しくないものはどれか。",
+                "choices": ['OK', 'ALARM', 'INSUFFICIENT_DATA', 'WARNING'],
+                "answer": 3,
+                "explanation": "CloudWatch Alarmの状態は、OK、ALARM、INSUFFICIENT_DATAの3つです。"
+            },
+            {
+                "id": 69,
+                "question": "AWS Cost and Usage Reportの配信頻度として設定できないものはどれか。",
+                "choices": ['毎日', '毎週', '毎月', 'リアルタイム'],
+                "answer": 3,
+                "explanation": "Cost and Usage Reportは、毎日、毎週、毎月の配信頻度を設定できますが、リアルタイム配信はサポートされていません。"
+            },
+            {
+                "id": 70,
+                "question": "AWS Budgetsで設定できる予算タイプとして正しくないものはどれか。",
+                "choices": ['Cost budget', 'Usage budget', 'Reservation budget', 'Performance budget'],
+                "answer": 3,
+                "explanation": "AWS Budgetsでは、コスト、使用量、リザベーション、Savings Plansの予算を設定できますが、パフォーマンス予算はありません。"
+            },
+            {
+                "id": 71,
+                "question": "Reserved Instancesの支払いオプションとして正しくないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 72,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 73,
+                "question": "AWS Glueの説明として正しいものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 74,
+                "question": "Amazon Athenaでクエリできるデータソースとして正しくないものはどれか。",
+                "choices": ['Amazon S3', 'Amazon DynamoDB', 'Amazon RDS', 'AWS CloudTrail logs'],
+                "answer": 2,
+                "explanation": "Athenaは主にS3上のデータに対してクエリを実行しますが、RDSに直接クエリすることはできません。"
+            },
+            {
+                "id": 75,
+                "question": "AWS CodeCommitの説明として正しいものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 76,
+                "question": "AWS CodeBuildの課金モデルはどれか。",
+                "choices": ['月額固定料金', 'ビルド実行時間に基づく従量課金', 'リポジトリ数に基づく課金', '無料で利用可能'],
+                "answer": 1,
+                "explanation": "CodeBuildは、ビルドの実行時間（分単位）に基づいて課金されます。"
+            },
+            {
+                "id": 77,
+                "question": "AWS CodeDeployでサポートされていないデプロイ先はどれか。",
+                "choices": ['EC2インスタンス', 'Lambda関数', 'ECS サービス', 'RDS データベース'],
+                "answer": 3,
+                "explanation": "CodeDeployは、EC2、Lambda、ECSへのデプロイをサポートしていますが、RDSデータベースはサポートしていません。"
+            },
+            {
+                "id": 78,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の説明として正しいものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 79,
+                "question": "「Infrastructure as Code (IaC)」の利点として正しくないものはどれか。",
+                "choices": ['設定の一貫性', 'バージョン管理', '手動作業の削減', 'ハードウェアコストの削減'],
+                "answer": 3,
+                "explanation": "IaCは、インフラの管理を自動化・標準化しますが、直接的なハードウェアコスト削減が主な目的ではありません。"
+            },
+            {
+                "id": 80,
+                "question": "マイクロサービスアーキテクチャの特徴として正しくないものはどれか。",
+                "choices": ['サービスの独立性', '単一のデータベース使用', '個別デプロイ可能', '技術スタックの多様性'],
+                "answer": 1,
+                "explanation": "マイクロサービスでは、各サービスが独自のデータベースを持つことが推奨され、単一のデータベース共有は避けられます。"
+            },
+            {
+                "id": 81,
+                "question": "AWS GuardDutyが検出する脅威の種類として正しくないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 82,
+                "question": "AWS Security Hubの主な機能はどれか。",
+                "choices": ['セキュリティ脅威の自動修復', 'セキュリティ検出結果の一元管理', 'ネットワークトラフィックの監視', 'アクセス権限の管理'],
+                "answer": 1,
+                "explanation": "Security Hubは、複数のセキュリティサービスからの検出結果を一元的に管理・表示するサービスです。"
+            },
+            {
+                "id": 83,
+                "question": "AWS KMSのカスタマーマネージドキーの特徴として正しくないものはどれか。",
+                "choices": ['キーの作成・管理が可能', 'キーローテーションの設定が可能', '無料で利用できる', 'キーポリシーの設定が可能'],
+                "answer": 2,
+                "explanation": "カスタマーマネージドキーは有料サービスで、キーの使用量に応じて料金が発生します。"
+            },
+            {
+                "id": 84,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 85,
+                "question": "クラウドファーストアプローチの利点として最も重要でないものはどれか。",
+                "choices": ['迅速なスケーリング', '運用コストの削減', '物理的なハードウェア制御', 'イノベーションの加速'],
+                "answer": 2,
+                "explanation": "クラウドファーストでは、物理的なハードウェア制御よりも、柔軟性と効率性が重視されます。"
+            },
+            {
+                "id": 86,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 87,
+                "question": "CloudWatchメトリクスのデータポイントの保持期間について最も適切なものはどれか。",
+                "choices": ['すべて15か月間保持される', '解像度によって異なる保持期間', '30日間のみ保持される', '永続的に保持される'],
+                "answer": 1,
+                "explanation": "CloudWatchメトリクスは、データポイントの解像度（1分、5分、1時間等）によって異なる保持期間が設定されています。"
+            },
+            {
+                "id": 88,
+                "question": "CloudWatch Logsのログストリームについて正しい説明はどれか。",
+                "choices": ['複数のソースからのログを混在させることができる', '単一のソースからのログイベントのシーケンス', 'ログの暗号化機能', 'ログの自動削除機能'],
+                "answer": 1,
+                "explanation": "ログストリームは、同じソースからのログイベントのシーケンスです。"
+            },
+            {
+                "id": 89,
+                "question": "CloudWatch Alarmの状態として正しくないものはどれか。",
+                "choices": ['OK', 'ALARM', 'INSUFFICIENT_DATA', 'WARNING'],
+                "answer": 3,
+                "explanation": "CloudWatch Alarmの状態は、OK、ALARM、INSUFFICIENT_DATAの3つです。"
+            },
+            {
+                "id": 90,
+                "question": "AWS Cost and Usage Reportの配信頻度として設定できないものはどれか。",
+                "choices": ['毎日', '毎週', '毎月', 'リアルタイム'],
+                "answer": 3,
+                "explanation": "Cost and Usage Reportは、毎日、毎週、毎月の配信頻度を設定できますが、リアルタイム配信はサポートされていません。"
+            },
+            {
+                "id": 91,
+                "question": "AWS Budgetsで設定できる予算タイプとして正しくないものはどれか。",
+                "choices": ['Cost budget', 'Usage budget', 'Reservation budget', 'Performance budget'],
+                "answer": 3,
+                "explanation": "AWS Budgetsでは、コスト、使用量、リザベーション、Savings Plansの予算を設定できますが、パフォーマンス予算はありません。"
+            },
+            {
+                "id": 92,
+                "question": "Reserved Instancesの支払いオプションとして正しくないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 93,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 94,
+                "question": "AWS Glueの説明として最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 95,
+                "question": "Amazon Athenaでクエリできるデータソースとして正しくないものはどれか。",
+                "choices": ['Amazon S3', 'Amazon DynamoDB', 'Amazon RDS', 'AWS CloudTrail logs'],
+                "answer": 2,
+                "explanation": "Athenaは主にS3上のデータに対してクエリを実行しますが、RDSに直接クエリすることはできません。"
+            },
+            {
+                "id": 96,
+                "question": "AWS CodeCommitの説明として最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 97,
+                "question": "AWS CodeBuildの課金モデルはどれか。",
+                "choices": ['月額固定料金', 'ビルド実行時間に基づく従量課金', 'リポジトリ数に基づく課金', '無料で利用可能'],
+                "answer": 1,
+                "explanation": "CodeBuildは、ビルドの実行時間（分単位）に基づいて課金されます。"
+            },
+            {
+                "id": 98,
+                "question": "AWS CodeDeployでサポートされていないデプロイ先はどれか。",
+                "choices": ['EC2インスタンス', 'Lambda関数', 'ECS サービス', 'RDS データベース'],
+                "answer": 3,
+                "explanation": "CodeDeployは、EC2、Lambda、ECSへのデプロイをサポートしていますが、RDSデータベースはサポートしていません。"
+            },
+            {
+                "id": 99,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の説明として最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 100,
+                "question": "「Infrastructure as Code (IaC)」の利点として正しくないものはどれか。",
+                "choices": ['設定の一貫性', 'バージョン管理', '手動作業の削減', 'ハードウェアコストの削減'],
+                "answer": 3,
+                "explanation": "IaCは、インフラの管理を自動化・標準化しますが、直接的なハードウェアコスト削減が主な目的ではありません。"
+            },
+            {
+                "id": 101,
+                "question": "マイクロサービスアーキテクチャの特徴として正しくないものはどれか。",
+                "choices": ['サービスの独立性', '単一のデータベース使用', '個別デプロイ可能', '技術スタックの多様性'],
+                "answer": 1,
+                "explanation": "マイクロサービスでは、各サービスが独自のデータベースを持つことが推奨され、単一のデータベース共有は避けられます。"
+            },
+            {
+                "id": 102,
+                "question": "AWS GuardDutyが検出する脅威の種類として正しくないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 103,
+                "question": "AWS Security Hubの主な機能はどれか。",
+                "choices": ['セキュリティ脅威の自動修復', 'セキュリティ検出結果の一元管理', 'ネットワークトラフィックの監視', 'アクセス権限の管理'],
+                "answer": 1,
+                "explanation": "Security Hubは、複数のセキュリティサービスからの検出結果を一元的に管理・表示するサービスです。"
+            },
+            {
+                "id": 104,
+                "question": "AWS KMSのカスタマーマネージドキーの特徴として正しくないものはどれか。",
+                "choices": ['キーの作成・管理が可能', 'キーローテーションの設定が可能', '無料で利用できる', 'キーポリシーの設定が可能'],
+                "answer": 2,
+                "explanation": "カスタマーマネージドキーは有料サービスで、キーの使用量に応じて料金が発生します。"
+            },
+            {
+                "id": 105,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 106,
+                "question": "クラウドファーストアプローチの利点として最も重要でないものはどれか。",
+                "choices": ['迅速なスケーリング', '運用コストの削減', '物理的なハードウェア制御', 'イノベーションの加速'],
+                "answer": 2,
+                "explanation": "クラウドファーストでは、物理的なハードウェア制御よりも、柔軟性と効率性が重視されます。"
+            },
+            {
+                "id": 107,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 108,
+                "question": "CloudWatchメトリクスのデータポイントの保持期間について最も適切なものはどれか。",
+                "choices": ['すべて15か月間保持される', '解像度によって異なる保持期間', '30日間のみ保持される', '永続的に保持される'],
+                "answer": 1,
+                "explanation": "CloudWatchメトリクスは、データポイントの解像度（1分、5分、1時間等）によって異なる保持期間が設定されています。"
+            },
+            {
+                "id": 109,
+                "question": "CloudWatch Logsのログストリームについて正しい説明はどれか。",
+                "choices": ['複数のソースからのログを混在させることができる', '単一のソースからのログイベントのシーケンス', 'ログの暗号化機能', 'ログの自動削除機能'],
+                "answer": 1,
+                "explanation": "ログストリームは、同じソースからのログイベントのシーケンスです。"
+            },
+            {
+                "id": 110,
+                "question": "CloudWatch Alarmの状態として最も適切でないものはどれか。",
+                "choices": ['OK', 'ALARM', 'INSUFFICIENT_DATA', 'WARNING'],
+                "answer": 3,
+                "explanation": "CloudWatch Alarmの状態は、OK、ALARM、INSUFFICIENT_DATAの3つです。"
+            },
+            {
+                "id": 111,
+                "question": "AWS Cost and Usage Reportの配信頻度として設定できないものはどれか。",
+                "choices": ['毎日', '毎週', '毎月', 'リアルタイム'],
+                "answer": 3,
+                "explanation": "Cost and Usage Reportは、毎日、毎週、毎月の配信頻度を設定できますが、リアルタイム配信はサポートされていません。"
+            },
+            {
+                "id": 112,
+                "question": "AWS Budgetsで設定できる予算タイプとして最も適切でないものはどれか。",
+                "choices": ['Cost budget', 'Usage budget', 'Reservation budget', 'Performance budget'],
+                "answer": 3,
+                "explanation": "AWS Budgetsでは、コスト、使用量、リザベーション、Savings Plansの予算を設定できますが、パフォーマンス予算はありません。"
+            },
+            {
+                "id": 113,
+                "question": "Reserved Instancesの支払いオプションとして最も適切でないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 114,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 115,
+                "question": "AWS Glueの説明として最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 116,
+                "question": "Amazon Athenaでクエリできるデータソースとして最も適切でないものはどれか。",
+                "choices": ['Amazon S3', 'Amazon DynamoDB', 'Amazon RDS', 'AWS CloudTrail logs'],
+                "answer": 2,
+                "explanation": "Athenaは主にS3上のデータに対してクエリを実行しますが、RDSに直接クエリすることはできません。"
+            },
+            {
+                "id": 117,
+                "question": "AWS CodeCommitの説明として最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 118,
+                "question": "AWS CodeBuildの課金モデルはどれか。",
+                "choices": ['月額固定料金', 'ビルド実行時間に基づく従量課金', 'リポジトリ数に基づく課金', '無料で利用可能'],
+                "answer": 1,
+                "explanation": "CodeBuildは、ビルドの実行時間（分単位）に基づいて課金されます。"
+            },
+            {
+                "id": 119,
+                "question": "AWS CodeDeployでサポートされていないデプロイ先はどれか。",
+                "choices": ['EC2インスタンス', 'Lambda関数', 'ECS サービス', 'RDS データベース'],
+                "answer": 3,
+                "explanation": "CodeDeployは、EC2、Lambda、ECSへのデプロイをサポートしていますが、RDSデータベースはサポートしていません。"
+            },
+            {
+                "id": 120,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の説明として最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 121,
+                "question": "「Infrastructure as Code (IaC)」の利点として最も適切でないものはどれか。",
+                "choices": ['設定の一貫性', 'バージョン管理', '手動作業の削減', 'ハードウェアコストの削減'],
+                "answer": 3,
+                "explanation": "IaCは、インフラの管理を自動化・標準化しますが、直接的なハードウェアコスト削減が主な目的ではありません。"
+            },
+            {
+                "id": 122,
+                "question": "マイクロサービスアーキテクチャの特徴として最も適切でないものはどれか。",
+                "choices": ['サービスの独立性', '単一のデータベース使用', '個別デプロイ可能', '技術スタックの多様性'],
+                "answer": 1,
+                "explanation": "マイクロサービスでは、各サービスが独自のデータベースを持つことが推奨され、単一のデータベース共有は避けられます。"
+            },
+            {
+                "id": 123,
+                "question": "AWS GuardDutyが検出する脅威の種類として最も適切でないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 124,
+                "question": "AWS Security Hubの主な機能はどれか。",
+                "choices": ['セキュリティ脅威の自動修復', 'セキュリティ検出結果の一元管理', 'ネットワークトラフィックの監視', 'アクセス権限の管理'],
+                "answer": 1,
+                "explanation": "Security Hubは、複数のセキュリティサービスからの検出結果を一元的に管理・表示するサービスです。"
+            },
+            {
+                "id": 125,
+                "question": "AWS KMSのカスタマーマネージドキーの特徴として最も適切でないものはどれか。",
+                "choices": ['キーの作成・管理が可能', 'キーローテーションの設定が可能', '無料で利用できる', 'キーポリシーの設定が可能'],
+                "answer": 2,
+                "explanation": "カスタマーマネージドキーは有料サービスで、キーの使用量に応じて料金が発生します。"
+            },
+            {
+                "id": 126,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 127,
+                "question": "クラウドファーストアプローチの利点として最も重要でないものはどれか。",
+                "choices": ['迅速なスケーリング', '運用コストの削減', '物理的なハードウェア制御', 'イノベーションの加速'],
+                "answer": 2,
+                "explanation": "クラウドファーストでは、物理的なハードウェア制御よりも、柔軟性と効率性が重視されます。"
+            },
+            {
+                "id": 128,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 129,
+                "question": "CloudWatchメトリクスのデータポイントの保持期間について最も適切なものはどれか。",
+                "choices": ['すべて15か月間保持される', '解像度によって異なる保持期間', '30日間のみ保持される', '永続的に保持される'],
+                "answer": 1,
+                "explanation": "CloudWatchメトリクスは、データポイントの解像度（1分、5分、1時間等）によって異なる保持期間が設定されています。"
+            },
+            {
+                "id": 130,
+                "question": "CloudWatch Logsのログストリームについて正しい説明はどれか。",
+                "choices": ['複数のソースからのログを混在させることができる', '単一のソースからのログイベントのシーケンス', 'ログの暗号化機能', 'ログの自動削除機能'],
+                "answer": 1,
+                "explanation": "ログストリームは、同じソースからのログイベントのシーケンスです。"
+            },
+            {
+                "id": 131,
+                "question": "CloudWatch Alarmの状態として最も適切でないものはどれか。",
+                "choices": ['OK', 'ALARM', 'INSUFFICIENT_DATA', 'WARNING'],
+                "answer": 3,
+                "explanation": "CloudWatch Alarmの状態は、OK、ALARM、INSUFFICIENT_DATAの3つです。"
+            },
+            {
+                "id": 132,
+                "question": "AWS Cost and Usage Reportの配信頻度として設定できないものはどれか。",
+                "choices": ['毎日', '毎週', '毎月', 'リアルタイム'],
+                "answer": 3,
+                "explanation": "Cost and Usage Reportは、毎日、毎週、毎月の配信頻度を設定できますが、リアルタイム配信はサポートされていません。"
+            },
+            {
+                "id": 133,
+                "question": "AWS Budgetsで設定できる予算タイプとして最も適切でないものはどれか。",
+                "choices": ['Cost budget', 'Usage budget', 'Reservation budget', 'Performance budget'],
+                "answer": 3,
+                "explanation": "AWS Budgetsでは、コスト、使用量、リザベーション、Savings Plansの予算を設定できますが、パフォーマンス予算はありません。"
+            },
+            {
+                "id": 134,
+                "question": "Reserved Instancesの支払いオプションとして最も適切でないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 135,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 136,
+                "question": "AWS Glueの特徴として最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 137,
+                "question": "Amazon Athenaでクエリできるデータソースとして最も適切でないものはどれか。",
+                "choices": ['Amazon S3', 'Amazon DynamoDB', 'Amazon RDS', 'AWS CloudTrail logs'],
+                "answer": 2,
+                "explanation": "Athenaは主にS3上のデータに対してクエリを実行しますが、RDSに直接クエリすることはできません。"
+            },
+            {
+                "id": 138,
+                "question": "AWS CodeCommitの特徴として最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 139,
+                "question": "AWS CodeBuildの課金モデルはどれか。",
+                "choices": ['月額固定料金', 'ビルド実行時間に基づく従量課金', 'リポジトリ数に基づく課金', '無料で利用可能'],
+                "answer": 1,
+                "explanation": "CodeBuildは、ビルドの実行時間（分単位）に基づいて課金されます。"
+            },
+            {
+                "id": 140,
+                "question": "AWS CodeDeployでサポートされていないデプロイ先はどれか。",
+                "choices": ['EC2インスタンス', 'Lambda関数', 'ECS サービス', 'RDS データベース'],
+                "answer": 3,
+                "explanation": "CodeDeployは、EC2、Lambda、ECSへのデプロイをサポートしていますが、RDSデータベースはサポートしていません。"
+            },
+            {
+                "id": 141,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴として最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 142,
+                "question": "「Infrastructure as Code (IaC)」の利点として最も適切でないものはどれか。",
+                "choices": ['設定の一貫性', 'バージョン管理', '手動作業の削減', 'ハードウェアコストの削減'],
+                "answer": 3,
+                "explanation": "IaCは、インフラの管理を自動化・標準化しますが、直接的なハードウェアコスト削減が主な目的ではありません。"
+            },
+            {
+                "id": 143,
+                "question": "マイクロサービスアーキテクチャの特徴として最も適切でないものはどれか。",
+                "choices": ['サービスの独立性', '単一のデータベース使用', '個別デプロイ可能', '技術スタックの多様性'],
+                "answer": 1,
+                "explanation": "マイクロサービスでは、各サービスが独自のデータベースを持つことが推奨され、単一のデータベース共有は避けられます。"
+            },
+            {
+                "id": 144,
+                "question": "AWS GuardDutyが検出する脅威の種類として最も適切でないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 145,
+                "question": "AWS Security Hubの主な機能はどれか。",
+                "choices": ['セキュリティ脅威の自動修復', 'セキュリティ検出結果の一元管理', 'ネットワークトラフィックの監視', 'アクセス権限の管理'],
+                "answer": 1,
+                "explanation": "Security Hubは、複数のセキュリティサービスからの検出結果を一元的に管理・表示するサービスです。"
+            },
+            {
+                "id": 146,
+                "question": "AWS KMSのカスタマーマネージドキーの特徴として最も適切でないものはどれか。",
+                "choices": ['キーの作成・管理が可能', 'キーローテーションの設定が可能', '無料で利用できる', 'キーポリシーの設定が可能'],
+                "answer": 2,
+                "explanation": "カスタマーマネージドキーは有料サービスで、キーの使用量に応じて料金が発生します。"
+            },
+            {
+                "id": 147,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 148,
+                "question": "クラウドファーストアプローチの利点として最も重要でないものはどれか。",
+                "choices": ['迅速なスケーリング', '運用コストの削減', '物理的なハードウェア制御', 'イノベーションの加速'],
+                "answer": 2,
+                "explanation": "クラウドファーストでは、物理的なハードウェア制御よりも、柔軟性と効率性が重視されます。"
+            },
+            {
+                "id": 149,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 150,
+                "question": "CloudWatchメトリクスのデータポイントの保持期間について最も適切なものはどれか。",
+                "choices": ['すべて15か月間保持される', '解像度によって異なる保持期間', '30日間のみ保持される', '永続的に保持される'],
+                "answer": 1,
+                "explanation": "CloudWatchメトリクスは、データポイントの解像度（1分、5分、1時間等）によって異なる保持期間が設定されています。"
+            },
+            {
+                "id": 151,
+                "question": "CloudWatch Logsのログストリームについて正しい説明はどれか。",
+                "choices": ['複数のソースからのログを混在させることができる', '単一のソースからのログイベントのシーケンス', 'ログの暗号化機能', 'ログの自動削除機能'],
+                "answer": 1,
+                "explanation": "ログストリームは、同じソースからのログイベントのシーケンスです。"
+            },
+            {
+                "id": 152,
+                "question": "CloudWatch Alarmの状態として最も適切でないものはどれか。",
+                "choices": ['OK', 'ALARM', 'INSUFFICIENT_DATA', 'WARNING'],
+                "answer": 3,
+                "explanation": "CloudWatch Alarmの状態は、OK、ALARM、INSUFFICIENT_DATAの3つです。"
+            },
+            {
+                "id": 153,
+                "question": "AWS Cost and Usage Reportの配信頻度として設定できないものはどれか。",
+                "choices": ['毎日', '毎週', '毎月', 'リアルタイム'],
+                "answer": 3,
+                "explanation": "Cost and Usage Reportは、毎日、毎週、毎月の配信頻度を設定できますが、リアルタイム配信はサポートされていません。"
+            },
+            {
+                "id": 154,
+                "question": "AWS Budgetsで設定できる予算タイプとして最も適切でないものはどれか。",
+                "choices": ['Cost budget', 'Usage budget', 'Reservation budget', 'Performance budget'],
+                "answer": 3,
+                "explanation": "AWS Budgetsでは、コスト、使用量、リザベーション、Savings Plansの予算を設定できますが、パフォーマンス予算はありません。"
+            },
+            {
+                "id": 155,
+                "question": "Reserved Instancesの支払いオプションとして最も適切でないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 156,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 157,
+                "question": "AWS Glueの特徴として最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 158,
+                "question": "Amazon Athenaでクエリできるデータソースとして最も適切でないものはどれか。",
+                "choices": ['Amazon S3', 'Amazon DynamoDB', 'Amazon RDS', 'AWS CloudTrail logs'],
+                "answer": 2,
+                "explanation": "Athenaは主にS3上のデータに対してクエリを実行しますが、RDSに直接クエリすることはできません。"
+            },
+            {
+                "id": 159,
+                "question": "AWS CodeCommitの特徴として最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 160,
+                "question": "AWS CodeBuildの課金モデルはどれか。",
+                "choices": ['月額固定料金', 'ビルド実行時間に基づく従量課金', 'リポジトリ数に基づく課金', '無料で利用可能'],
+                "answer": 1,
+                "explanation": "CodeBuildは、ビルドの実行時間（分単位）に基づいて課金されます。"
+            },
+            {
+                "id": 161,
+                "question": "AWS CodeDeployでサポートされていないデプロイ先はどれか。",
+                "choices": ['EC2インスタンス', 'Lambda関数', 'ECS サービス', 'RDS データベース'],
+                "answer": 3,
+                "explanation": "CodeDeployは、EC2、Lambda、ECSへのデプロイをサポートしていますが、RDSデータベースはサポートしていません。"
+            },
+            {
+                "id": 162,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴として最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 163,
+                "question": "「Infrastructure as Code (IaC)」の利点として最も適切でないものはどれか。",
+                "choices": ['設定の一貫性', 'バージョン管理', '手動作業の削減', 'ハードウェアコストの削減'],
+                "answer": 3,
+                "explanation": "IaCは、インフラの管理を自動化・標準化しますが、直接的なハードウェアコスト削減が主な目的ではありません。"
+            },
+            {
+                "id": 164,
+                "question": "マイクロサービスアーキテクチャの特徴として最も適切でないものはどれか。",
+                "choices": ['サービスの独立性', '単一のデータベース使用', '個別デプロイ可能', '技術スタックの多様性'],
+                "answer": 1,
+                "explanation": "マイクロサービスでは、各サービスが独自のデータベースを持つことが推奨され、単一のデータベース共有は避けられます。"
+            },
+            {
+                "id": 165,
+                "question": "AWS GuardDutyが検出する脅威の種類として最も適切でないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 166,
+                "question": "AWS Security Hubの主な機能はどれか。",
+                "choices": ['セキュリティ脅威の自動修復', 'セキュリティ検出結果の一元管理', 'ネットワークトラフィックの監視', 'アクセス権限の管理'],
+                "answer": 1,
+                "explanation": "Security Hubは、複数のセキュリティサービスからの検出結果を一元的に管理・表示するサービスです。"
+            },
+            {
+                "id": 167,
+                "question": "AWS KMSのカスタマーマネージドキーの特徴として最も適切でないものはどれか。",
+                "choices": ['キーの作成・管理が可能', 'キーローテーションの設定が可能', '無料で利用できる', 'キーポリシーの設定が可能'],
+                "answer": 2,
+                "explanation": "カスタマーマネージドキーは有料サービスで、キーの使用量に応じて料金が発生します。"
+            },
+            {
+                "id": 168,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 169,
+                "question": "クラウドファーストアプローチの利点として最も重要でないものはどれか。",
+                "choices": ['迅速なスケーリング', '運用コストの削減', '物理的なハードウェア制御', 'イノベーションの加速'],
+                "answer": 2,
+                "explanation": "クラウドファーストでは、物理的なハードウェア制御よりも、柔軟性と効率性が重視されます。"
+            },
+            {
+                "id": 170,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 171,
+                "question": "CloudWatchメトリクスのデータポイントの保持期間について最も適切なものはどれか。",
+                "choices": ['すべて15か月間保持される', '解像度によって異なる保持期間', '30日間のみ保持される', '永続的に保持される'],
+                "answer": 1,
+                "explanation": "CloudWatchメトリクスは、データポイントの解像度（1分、5分、1時間等）によって異なる保持期間が設定されています。"
+            },
+            {
+                "id": 172,
+                "question": "CloudWatch Logsのログストリームについて正しい説明はどれか。",
+                "choices": ['複数のソースからのログを混在させることができる', '単一のソースからのログイベントのシーケンス', 'ログの暗号化機能', 'ログの自動削除機能'],
+                "answer": 1,
+                "explanation": "ログストリームは、同じソースからのログイベントのシーケンスです。"
+            },
+            {
+                "id": 173,
+                "question": "CloudWatch Alarmの状態として最も適切でないものはどれか。",
+                "choices": ['OK', 'ALARM', 'INSUFFICIENT_DATA', 'WARNING'],
+                "answer": 3,
+                "explanation": "CloudWatch Alarmの状態は、OK、ALARM、INSUFFICIENT_DATAの3つです。"
+            },
+            {
+                "id": 174,
+                "question": "AWS Cost and Usage Reportの配信頻度として設定できないものはどれか。",
+                "choices": ['毎日', '毎週', '毎月', 'リアルタイム'],
+                "answer": 3,
+                "explanation": "Cost and Usage Reportは、毎日、毎週、毎月の配信頻度を設定できますが、リアルタイム配信はサポートされていません。"
+            },
+            {
+                "id": 175,
+                "question": "AWS Budgetsで設定できる予算タイプとして最も適切でないものはどれか。",
+                "choices": ['Cost budget', 'Usage budget', 'Reservation budget', 'Performance budget'],
+                "answer": 3,
+                "explanation": "AWS Budgetsでは、コスト、使用量、リザベーション、Savings Plansの予算を設定できますが、パフォーマンス予算はありません。"
+            },
+            {
+                "id": 176,
+                "question": "Reserved Instancesの支払いオプションとして最も適切でないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 177,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 178,
+                "question": "AWS Glueの特徴として最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 179,
+                "question": "Amazon Athenaでクエリできるデータソースとして最も適切でないものはどれか。",
+                "choices": ['Amazon S3', 'Amazon DynamoDB', 'Amazon RDS', 'AWS CloudTrail logs'],
+                "answer": 2,
+                "explanation": "Athenaは主にS3上のデータに対してクエリを実行しますが、RDSに直接クエリすることはできません。"
+            },
+            {
+                "id": 180,
+                "question": "AWS CodeCommitの特徴として最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 181,
+                "question": "AWS CodeBuildの課金モデルはどれか。",
+                "choices": ['月額固定料金', 'ビルド実行時間に基づく従量課金', 'リポジトリ数に基づく課金', '無料で利用可能'],
+                "answer": 1,
+                "explanation": "CodeBuildは、ビルドの実行時間（分単位）に基づいて課金されます。"
+            },
+            {
+                "id": 182,
+                "question": "AWS CodeDeployでサポートされていないデプロイ先はどれか。",
+                "choices": ['EC2インスタンス', 'Lambda関数', 'ECS サービス', 'RDS データベース'],
+                "answer": 3,
+                "explanation": "CodeDeployは、EC2、Lambda、ECSへのデプロイをサポートしていますが、RDSデータベースはサポートしていません。"
+            },
+            {
+                "id": 183,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴として最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 184,
+                "question": "「Infrastructure as Code (IaC)」の利点として最も適切でないものはどれか。",
+                "choices": ['設定の一貫性', 'バージョン管理', '手動作業の削減', 'ハードウェアコストの削減'],
+                "answer": 3,
+                "explanation": "IaCは、インフラの管理を自動化・標準化しますが、直接的なハードウェアコスト削減が主な目的ではありません。"
+            },
+            {
+                "id": 185,
+                "question": "マイクロサービスアーキテクチャの特徴として最も適切でないものはどれか。",
+                "choices": ['サービスの独立性', '単一のデータベース使用', '個別デプロイ可能', '技術スタックの多様性'],
+                "answer": 1,
+                "explanation": "マイクロサービスでは、各サービスが独自のデータベースを持つことが推奨され、単一のデータベース共有は避けられます。"
+            },
+            {
+                "id": 186,
+                "question": "AWS GuardDutyが検出する脅威の種類として最も適切でないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 187,
+                "question": "AWS Security Hubの主な機能はどれか。",
+                "choices": ['セキュリティ脅威の自動修復', 'セキュリティ検出結果の一元管理', 'ネットワークトラフィックの監視', 'アクセス権限の管理'],
+                "answer": 1,
+                "explanation": "Security Hubは、複数のセキュリティサービスからの検出結果を一元的に管理・表示するサービスです。"
+            },
+            {
+                "id": 188,
+                "question": "AWS KMSのカスタマーマネージドキーの特徴として最も適切でないものはどれか。",
+                "choices": ['キーの作成・管理が可能', 'キーローテーションの設定が可能', '無料で利用できる', 'キーポリシーの設定が可能'],
+                "answer": 2,
+                "explanation": "カスタマーマネージドキーは有料サービスで、キーの使用量に応じて料金が発生します。"
+            },
+            {
+                "id": 189,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 190,
+                "question": "クラウドファーストアプローチの利点として最も重要でないものはどれか。",
+                "choices": ['迅速なスケーリング', '運用コストの削減', '物理的なハードウェア制御', 'イノベーションの加速'],
+                "answer": 2,
+                "explanation": "クラウドファーストでは、物理的なハードウェア制御よりも、柔軟性と効率性が重視されます。"
+            },
+            {
+                "id": 191,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 192,
+                "question": "CloudWatchメトリクスのデータポイントの保持期間について最も適切なものはどれか。",
+                "choices": ['すべて15か月間保持される', '解像度によって異なる保持期間', '30日間のみ保持される', '永続的に保持される'],
+                "answer": 1,
+                "explanation": "CloudWatchメトリクスは、データポイントの解像度（1分、5分、1時間等）によって異なる保持期間が設定されています。"
+            },
+            {
+                "id": 193,
+                "question": "CloudWatch Logsのログストリームについて正しい説明はどれか。",
+                "choices": ['複数のソースからのログを混在させることができる', '単一のソースからのログイベントのシーケンス', 'ログの暗号化機能', 'ログの自動削除機能'],
+                "answer": 1,
+                "explanation": "ログストリームは、同じソースからのログイベントのシーケンスです。"
+            },
+            {
+                "id": 194,
+                "question": "CloudWatch Alarmの状態として最も適切でないものはどれか。",
+                "choices": ['OK', 'ALARM', 'INSUFFICIENT_DATA', 'WARNING'],
+                "answer": 3,
+                "explanation": "CloudWatch Alarmの状態は、OK、ALARM、INSUFFICIENT_DATAの3つです。"
+            },
+            {
+                "id": 195,
+                "question": "AWS Cost and Usage Reportの配信頻度として設定できないものはどれか。",
+                "choices": ['毎日', '毎週', '毎月', 'リアルタイム'],
+                "answer": 3,
+                "explanation": "Cost and Usage Reportは、毎日、毎週、毎月の配信頻度を設定できますが、リアルタイム配信はサポートされていません。"
+            },
+            {
+                "id": 196,
+                "question": "AWS Budgetsで設定できる予算タイプとして最も適切でないものはどれか。",
+                "choices": ['Cost budget', 'Usage budget', 'Reservation budget', 'Performance budget'],
+                "answer": 3,
+                "explanation": "AWS Budgetsでは、コスト、使用量、リザベーション、Savings Plansの予算を設定できますが、パフォーマンス予算はありません。"
+            },
+            {
+                "id": 197,
+                "question": "Reserved Instancesの支払いオプションとして最も適切でないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 198,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 199,
+                "question": "AWS Glueの特徴として最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 200,
+                "question": "Amazon Athenaでクエリできるデータソースとして最も適切でないものはどれか。",
+                "choices": ['Amazon S3', 'Amazon DynamoDB', 'Amazon RDS', 'AWS CloudTrail logs'],
+                "answer": 2,
+                "explanation": "Athenaは主にS3上のデータに対してクエリを実行しますが、RDSに直接クエリすることはできません。"
+            },
+            {
+                "id": 201,
+                "question": "AWS CodeCommitの特徴として最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 202,
+                "question": "AWS CodeBuildの課金モデルはどれか。",
+                "choices": ['月額固定料金', 'ビルド実行時間に基づく従量課金', 'リポジトリ数に基づく課金', '無料で利用可能'],
+                "answer": 1,
+                "explanation": "CodeBuildは、ビルドの実行時間（分単位）に基づいて課金されます。"
+            },
+            {
+                "id": 203,
+                "question": "AWS CodeDeployでサポートされていないデプロイ先はどれか。",
+                "choices": ['EC2インスタンス', 'Lambda関数', 'ECS サービス', 'RDS データベース'],
+                "answer": 3,
+                "explanation": "CodeDeployは、EC2、Lambda、ECSへのデプロイをサポートしていますが、RDSデータベースはサポートしていません。"
+            },
+            {
+                "id": 204,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴として最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 205,
+                "question": "「Infrastructure as Code (IaC)」の利点として最も適切でないものはどれか。",
+                "choices": ['設定の一貫性', 'バージョン管理', '手動作業の削減', 'ハードウェアコストの削減'],
+                "answer": 3,
+                "explanation": "IaCは、インフラの管理を自動化・標準化しますが、直接的なハードウェアコスト削減が主な目的ではありません。"
+            },
+            {
+                "id": 206,
+                "question": "マイクロサービスアーキテクチャの特徴として最も適切でないものはどれか。",
+                "choices": ['サービスの独立性', '単一のデータベース使用', '個別デプロイ可能', '技術スタックの多様性'],
+                "answer": 1,
+                "explanation": "マイクロサービスでは、各サービスが独自のデータベースを持つことが推奨され、単一のデータベース共有は避けられます。"
+            },
+            {
+                "id": 207,
+                "question": "AWS GuardDutyが検出する脅威の種類として最も適切でないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 208,
+                "question": "AWS Security Hubの主な機能はどれか。",
+                "choices": ['セキュリティ脅威の自動修復', 'セキュリティ検出結果の一元管理', 'ネットワークトラフィックの監視', 'アクセス権限の管理'],
+                "answer": 1,
+                "explanation": "Security Hubは、複数のセキュリティサービスからの検出結果を一元的に管理・表示するサービスです。"
+            },
+            {
+                "id": 209,
+                "question": "AWS KMSのカスタマーマネージドキーの特徴として最も適切でないものはどれか。",
+                "choices": ['キーの作成・管理が可能', 'キーローテーションの設定が可能', '無料で利用できる', 'キーポリシーの設定が可能'],
+                "answer": 2,
+                "explanation": "カスタマーマネージドキーは有料サービスで、キーの使用量に応じて料金が発生します。"
+            },
+            {
+                "id": 210,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 211,
+                "question": "クラウドファーストアプローチの利点として最も重要でないものはどれか。",
+                "choices": ['迅速なスケーリング', '運用コストの削減', '物理的なハードウェア制御', 'イノベーションの加速'],
+                "answer": 2,
+                "explanation": "クラウドファーストでは、物理的なハードウェア制御よりも、柔軟性と効率性が重視されます。"
+            },
+            {
+                "id": 212,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 213,
+                "question": "CloudWatchメトリクスのデータポイントの保持期間について最も適切なものはどれか。",
+                "choices": ['すべて15か月間保持される', '解像度によって異なる保持期間', '30日間のみ保持される', '永続的に保持される'],
+                "answer": 1,
+                "explanation": "CloudWatchメトリクスは、データポイントの解像度（1分、5分、1時間等）によって異なる保持期間が設定されています。"
+            },
+            {
+                "id": 214,
+                "question": "CloudWatch Logsのログストリームについて正しい説明はどれか。",
+                "choices": ['複数のソースからのログを混在させることができる', '単一のソースからのログイベントのシーケンス', 'ログの暗号化機能', 'ログの自動削除機能'],
+                "answer": 1,
+                "explanation": "ログストリームは、同じソースからのログイベントのシーケンスです。"
+            },
+            {
+                "id": 215,
+                "question": "CloudWatch Alarmの状態として最も適切でないものはどれか。",
+                "choices": ['OK', 'ALARM', 'INSUFFICIENT_DATA', 'WARNING'],
+                "answer": 3,
+                "explanation": "CloudWatch Alarmの状態は、OK、ALARM、INSUFFICIENT_DATAの3つです。"
+            },
+            {
+                "id": 216,
+                "question": "AWS Cost and Usage Reportの配信頻度として設定できないものはどれか。",
+                "choices": ['毎日', '毎週', '毎月', 'リアルタイム'],
+                "answer": 3,
+                "explanation": "Cost and Usage Reportは、毎日、毎週、毎月の配信頻度を設定できますが、リアルタイム配信はサポートされていません。"
+            },
+            {
+                "id": 217,
+                "question": "AWS Budgetsで設定できる予算タイプとして最も適切でないものはどれか。",
+                "choices": ['Cost budget', 'Usage budget', 'Reservation budget', 'Performance budget'],
+                "answer": 3,
+                "explanation": "AWS Budgetsでは、コスト、使用量、リザベーション、Savings Plansの予算を設定できますが、パフォーマンス予算はありません。"
+            },
+            {
+                "id": 218,
+                "question": "Reserved Instancesの支払いオプションとして最も適切でないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 219,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 220,
+                "question": "AWS Glueの特徴として最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 221,
+                "question": "Amazon Athenaでクエリできるデータソースとして最も適切でないものはどれか。",
+                "choices": ['Amazon S3', 'Amazon DynamoDB', 'Amazon RDS', 'AWS CloudTrail logs'],
+                "answer": 2,
+                "explanation": "Athenaは主にS3上のデータに対してクエリを実行しますが、RDSに直接クエリすることはできません。"
+            },
+            {
+                "id": 222,
+                "question": "AWS CodeCommitの特徴として最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 223,
+                "question": "AWS CodeBuildの課金モデルはどれか。",
+                "choices": ['月額固定料金', 'ビルド実行時間に基づく従量課金', 'リポジトリ数に基づく課金', '無料で利用可能'],
+                "answer": 1,
+                "explanation": "CodeBuildは、ビルドの実行時間（分単位）に基づいて課金されます。"
+            },
+            {
+                "id": 224,
+                "question": "AWS CodeDeployでサポートされていないデプロイ先はどれか。",
+                "choices": ['EC2インスタンス', 'Lambda関数', 'ECS サービス', 'RDS データベース'],
+                "answer": 3,
+                "explanation": "CodeDeployは、EC2、Lambda、ECSへのデプロイをサポートしていますが、RDSデータベースはサポートしていません。"
+            },
+            {
+                "id": 225,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴として最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 226,
+                "question": "「Infrastructure as Code (IaC)」の利点として最も適切でないものはどれか。",
+                "choices": ['設定の一貫性', 'バージョン管理', '手動作業の削減', 'ハードウェアコストの削減'],
+                "answer": 3,
+                "explanation": "IaCは、インフラの管理を自動化・標準化しますが、直接的なハードウェアコスト削減が主な目的ではありません。"
+            },
+            {
+                "id": 227,
+                "question": "マイクロサービスアーキテクチャの特徴として最も適切でないものはどれか。",
+                "choices": ['サービスの独立性', '単一のデータベース使用', '個別デプロイ可能', '技術スタックの多様性'],
+                "answer": 1,
+                "explanation": "マイクロサービスでは、各サービスが独自のデータベースを持つことが推奨され、単一のデータベース共有は避けられます。"
+            },
+            {
+                "id": 228,
+                "question": "AWS GuardDutyが検出する脅威の種類として最も適切でないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 229,
+                "question": "AWS Security Hubの主な機能はどれか。",
+                "choices": ['セキュリティ脅威の自動修復', 'セキュリティ検出結果の一元管理', 'ネットワークトラフィックの監視', 'アクセス権限の管理'],
+                "answer": 1,
+                "explanation": "Security Hubは、複数のセキュリティサービスからの検出結果を一元的に管理・表示するサービスです。"
+            },
+            {
+                "id": 230,
+                "question": "AWS KMSのカスタマーマネージドキーの特徴として最も適切でないものはどれか。",
+                "choices": ['キーの作成・管理が可能', 'キーローテーションの設定が可能', '無料で利用できる', 'キーポリシーの設定が可能'],
+                "answer": 2,
+                "explanation": "カスタマーマネージドキーは有料サービスで、キーの使用量に応じて料金が発生します。"
+            },
+            {
+                "id": 231,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 232,
+                "question": "クラウドファーストアプローチの利点として最も重要でないものはどれか。",
+                "choices": ['迅速なスケーリング', '運用コストの削減', '物理的なハードウェア制御', 'イノベーションの加速'],
+                "answer": 2,
+                "explanation": "クラウドファーストでは、物理的なハードウェア制御よりも、柔軟性と効率性が重視されます。"
+            },
+            {
+                "id": 233,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 234,
+                "question": "CloudWatchメトリクスのデータポイントの保持期間について最も適切なものはどれか。",
+                "choices": ['すべて15か月間保持される', '解像度によって異なる保持期間', '30日間のみ保持される', '永続的に保持される'],
+                "answer": 1,
+                "explanation": "CloudWatchメトリクスは、データポイントの解像度（1分、5分、1時間等）によって異なる保持期間が設定されています。"
+            },
+            {
+                "id": 235,
+                "question": "CloudWatch Logsのログストリームについて正しい説明はどれか。",
+                "choices": ['複数のソースからのログを混在させることができる', '単一のソースからのログイベントのシーケンス', 'ログの暗号化機能', 'ログの自動削除機能'],
+                "answer": 1,
+                "explanation": "ログストリームは、同じソースからのログイベントのシーケンスです。"
+            },
+            {
+                "id": 236,
+                "question": "CloudWatch Alarmの状態として最も適切でないものはどれか。",
+                "choices": ['OK', 'ALARM', 'INSUFFICIENT_DATA', 'WARNING'],
+                "answer": 3,
+                "explanation": "CloudWatch Alarmの状態は、OK、ALARM、INSUFFICIENT_DATAの3つです。"
+            },
+            {
+                "id": 237,
+                "question": "AWS Cost and Usage Reportの配信頻度として設定できないものはどれか。",
+                "choices": ['毎日', '毎週', '毎月', 'リアルタイム'],
+                "answer": 3,
+                "explanation": "Cost and Usage Reportは、毎日、毎週、毎月の配信頻度を設定できますが、リアルタイム配信はサポートされていません。"
+            },
+            {
+                "id": 238,
+                "question": "AWS Budgetsで設定できる予算タイプとして最も適切でないものはどれか。",
+                "choices": ['Cost budget', 'Usage budget', 'Reservation budget', 'Performance budget'],
+                "answer": 3,
+                "explanation": "AWS Budgetsでは、コスト、使用量、リザベーション、Savings Plansの予算を設定できますが、パフォーマンス予算はありません。"
+            },
+            {
+                "id": 239,
+                "question": "Reserved Instancesの支払いオプションとして最も適切でないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 240,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 241,
+                "question": "AWS Glueの特徴として最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 242,
+                "question": "Amazon Athenaでクエリできるデータソースとして最も適切でないものはどれか。",
+                "choices": ['Amazon S3', 'Amazon DynamoDB', 'Amazon RDS', 'AWS CloudTrail logs'],
+                "answer": 2,
+                "explanation": "Athenaは主にS3上のデータに対してクエリを実行しますが、RDSに直接クエリすることはできません。"
+            },
+            {
+                "id": 243,
+                "question": "AWS CodeCommitの特徴として最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 244,
+                "question": "AWS CodeBuildの課金モデルはどれか。",
+                "choices": ['月額固定料金', 'ビルド実行時間に基づく従量課金', 'リポジトリ数に基づく課金', '無料で利用可能'],
+                "answer": 1,
+                "explanation": "CodeBuildは、ビルドの実行時間（分単位）に基づいて課金されます。"
+            },
+            {
+                "id": 245,
+                "question": "AWS CodeDeployでサポートされていないデプロイ先はどれか。",
+                "choices": ['EC2インスタンス', 'Lambda関数', 'ECS サービス', 'RDS データベース'],
+                "answer": 3,
+                "explanation": "CodeDeployは、EC2、Lambda、ECSへのデプロイをサポートしていますが、RDSデータベースはサポートしていません。"
+            },
+            {
+                "id": 246,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴として最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 247,
+                "question": "「Infrastructure as Code (IaC)」の利点として最も適切でないものはどれか。",
+                "choices": ['設定の一貫性', 'バージョン管理', '手動作業の削減', 'ハードウェアコストの削減'],
+                "answer": 3,
+                "explanation": "IaCは、インフラの管理を自動化・標準化しますが、直接的なハードウェアコスト削減が主な目的ではありません。"
+            },
+            {
+                "id": 248,
+                "question": "マイクロサービスアーキテクチャの特徴として最も適切でないものはどれか。",
+                "choices": ['サービスの独立性', '単一のデータベース使用', '個別デプロイ可能', '技術スタックの多様性'],
+                "answer": 1,
+                "explanation": "マイクロサービスでは、各サービスが独自のデータベースを持つことが推奨され、単一のデータベース共有は避けられます。"
+            },
+            {
+                "id": 249,
+                "question": "AWS GuardDutyが検出する脅威の種類として最も適切でないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 250,
+                "question": "AWS Security Hubの主な機能はどれか。",
+                "choices": ['セキュリティ脅威の自動修復', 'セキュリティ検出結果の一元管理', 'ネットワークトラフィックの監視', 'アクセス権限の管理'],
+                "answer": 1,
+                "explanation": "Security Hubは、複数のセキュリティサービスからの検出結果を一元的に管理・表示するサービスです。"
+            },
+            {
+                "id": 251,
+                "question": "AWS KMSのカスタマーマネージドキーの特徴として最も適切でないものはどれか。",
+                "choices": ['キーの作成・管理が可能', 'キーローテーションの設定が可能', '無料で利用できる', 'キーポリシーの設定が可能'],
+                "answer": 2,
+                "explanation": "カスタマーマネージドキーは有料サービスで、キーの使用量に応じて料金が発生します。"
+            },
+            {
+                "id": 252,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 253,
+                "question": "クラウドファーストアプローチの利点として最も重要でないものはどれか。",
+                "choices": ['迅速なスケーリング', '運用コストの削減', '物理的なハードウェア制御', 'イノベーションの加速'],
+                "answer": 2,
+                "explanation": "クラウドファーストでは、物理的なハードウェア制御よりも、柔軟性と効率性が重視されます。"
+            },
+            {
+                "id": 254,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 255,
+                "question": "CloudWatchメトリクスのデータポイントの保持期間について最も適切なものはどれか。",
+                "choices": ['すべて15か月間保持される', '解像度によって異なる保持期間', '30日間のみ保持される', '永続的に保持される'],
+                "answer": 1,
+                "explanation": "CloudWatchメトリクスは、データポイントの解像度（1分、5分、1時間等）によって異なる保持期間が設定されています。"
+            },
+            {
+                "id": 256,
+                "question": "CloudWatch Logsのログストリームについて正しい説明はどれか。",
+                "choices": ['複数のソースからのログを混在させることができる', '単一のソースからのログイベントのシーケンス', 'ログの暗号化機能', 'ログの自動削除機能'],
+                "answer": 1,
+                "explanation": "ログストリームは、同じソースからのログイベントのシーケンスです。"
+            },
+            {
+                "id": 257,
+                "question": "CloudWatch Alarmの状態として最も適切でないものはどれか。",
+                "choices": ['OK', 'ALARM', 'INSUFFICIENT_DATA', 'WARNING'],
+                "answer": 3,
+                "explanation": "CloudWatch Alarmの状態は、OK、ALARM、INSUFFICIENT_DATAの3つです。"
+            },
+            {
+                "id": 258,
+                "question": "AWS Cost and Usage Reportの配信頻度として設定できないものはどれか。",
+                "choices": ['毎日', '毎週', '毎月', 'リアルタイム'],
+                "answer": 3,
+                "explanation": "Cost and Usage Reportは、毎日、毎週、毎月の配信頻度を設定できますが、リアルタイム配信はサポートされていません。"
+            },
+            {
+                "id": 259,
+                "question": "AWS Budgetsで設定できる予算タイプとして最も適切でないものはどれか。",
+                "choices": ['Cost budget', 'Usage budget', 'Reservation budget', 'Performance budget'],
+                "answer": 3,
+                "explanation": "AWS Budgetsでは、コスト、使用量、リザベーション、Savings Plansの予算を設定できますが、パフォーマンス予算はありません。"
+            },
+            {
+                "id": 260,
+                "question": "Reserved Instancesの支払いオプションとして最も適切でないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 261,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 262,
+                "question": "AWS Glueの特徴として最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 263,
+                "question": "Amazon Athenaでクエリできるデータソースとして最も適切でないものはどれか。",
+                "choices": ['Amazon S3', 'Amazon DynamoDB', 'Amazon RDS', 'AWS CloudTrail logs'],
+                "answer": 2,
+                "explanation": "Athenaは主にS3上のデータに対してクエリを実行しますが、RDSに直接クエリすることはできません。"
+            },
+            {
+                "id": 264,
+                "question": "AWS CodeCommitの特徴として最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 265,
+                "question": "AWS CodeBuildの課金モデルはどれか。",
+                "choices": ['月額固定料金', 'ビルド実行時間に基づく従量課金', 'リポジトリ数に基づく課金', '無料で利用可能'],
+                "answer": 1,
+                "explanation": "CodeBuildは、ビルドの実行時間（分単位）に基づいて課金されます。"
+            },
+            {
+                "id": 266,
+                "question": "AWS CodeDeployでサポートされていないデプロイ先はどれか。",
+                "choices": ['EC2インスタンス', 'Lambda関数', 'ECS サービス', 'RDS データベース'],
+                "answer": 3,
+                "explanation": "CodeDeployは、EC2、Lambda、ECSへのデプロイをサポートしていますが、RDSデータベースはサポートしていません。"
+            },
+            {
+                "id": 267,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴として最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 268,
+                "question": "「Infrastructure as Code (IaC)」の利点として最も適切でないものはどれか。",
+                "choices": ['設定の一貫性', 'バージョン管理', '手動作業の削減', 'ハードウェアコストの削減'],
+                "answer": 3,
+                "explanation": "IaCは、インフラの管理を自動化・標準化しますが、直接的なハードウェアコスト削減が主な目的ではありません。"
+            },
+            {
+                "id": 269,
+                "question": "マイクロサービスアーキテクチャの特徴として最も適切でないものはどれか。",
+                "choices": ['サービスの独立性', '単一のデータベース使用', '個別デプロイ可能', '技術スタックの多様性'],
+                "answer": 1,
+                "explanation": "マイクロサービスでは、各サービスが独自のデータベースを持つことが推奨され、単一のデータベース共有は避けられます。"
+            },
+            {
+                "id": 270,
+                "question": "AWS GuardDutyが検出する脅威の種類として最も適切でないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 271,
+                "question": "AWS Security Hubの主な機能はどれか。",
+                "choices": ['セキュリティ脅威の自動修復', 'セキュリティ検出結果の一元管理', 'ネットワークトラフィックの監視', 'アクセス権限の管理'],
+                "answer": 1,
+                "explanation": "Security Hubは、複数のセキュリティサービスからの検出結果を一元的に管理・表示するサービスです。"
+            },
+            {
+                "id": 272,
+                "question": "AWS KMSのカスタマーマネージドキーの特徴として最も適切でないものはどれか。",
+                "choices": ['キーの作成・管理が可能', 'キーローテーションの設定が可能', '無料で利用できる', 'キーポリシーの設定が可能'],
+                "answer": 2,
+                "explanation": "カスタマーマネージドキーは有料サービスで、キーの使用量に応じて料金が発生します。"
+            },
+            {
+                "id": 273,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 274,
+                "question": "クラウドファーストアプローチの利点として最も重要でないものはどれか。",
+                "choices": ['迅速なスケーリング', '運用コストの削減', '物理的なハードウェア制御', 'イノベーションの加速'],
+                "answer": 2,
+                "explanation": "クラウドファーストでは、物理的なハードウェア制御よりも、柔軟性と効率性が重視されます。"
+            },
+            {
+                "id": 275,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 276,
+                "question": "CloudWatchメトリクスのデータポイントの保持期間について最も適切なものはどれか。",
+                "choices": ['すべて15か月間保持される', '解像度によって異なる保持期間', '30日間のみ保持される', '永続的に保持される'],
+                "answer": 1,
+                "explanation": "CloudWatchメトリクスは、データポイントの解像度（1分、5分、1時間等）によって異なる保持期間が設定されています。"
+            },
+            {
+                "id": 277,
+                "question": "CloudWatch Logsのログストリームについて正しい説明はどれか。",
+                "choices": ['複数のソースからのログを混在させることができる', '単一のソースからのログイベントのシーケンス', 'ログの暗号化機能', 'ログの自動削除機能'],
+                "answer": 1,
+                "explanation": "ログストリームは、同じソースからのログイベントのシーケンスです。"
+            },
+            {
+                "id": 278,
+                "question": "CloudWatch Alarmの状態として最も適切でないものはどれか。",
+                "choices": ['OK', 'ALARM', 'INSUFFICIENT_DATA', 'WARNING'],
+                "answer": 3,
+                "explanation": "CloudWatch Alarmの状態は、OK、ALARM、INSUFFICIENT_DATAの3つです。"
+            },
+            {
+                "id": 279,
+                "question": "AWS Cost and Usage Reportの配信頻度として設定できないものはどれか。",
+                "choices": ['毎日', '毎週', '毎月', 'リアルタイム'],
+                "answer": 3,
+                "explanation": "Cost and Usage Reportは、毎日、毎週、毎月の配信頻度を設定できますが、リアルタイム配信はサポートされていません。"
+            },
+            {
+                "id": 280,
+                "question": "AWS Budgetsで設定できる予算タイプとして最も適切でないものはどれか。",
+                "choices": ['Cost budget', 'Usage budget', 'Reservation budget', 'Performance budget'],
+                "answer": 3,
+                "explanation": "AWS Budgetsでは、コスト、使用量、リザベーション、Savings Plansの予算を設定できますが、パフォーマンス予算はありません。"
+            },
+            {
+                "id": 281,
+                "question": "Reserved Instancesの支払いオプションとして最も適切でないものはどれか。",
+                "choices": ['No Upfront', 'Partial Upfront', 'All Upfront', 'Monthly Payment'],
+                "answer": 3,
+                "explanation": "Reserved Instancesの支払いオプションは、No Upfront、Partial Upfront、All Upfrontの3つです。"
+            },
+            {
+                "id": 282,
+                "question": "Amazon SageMakerの主な用途はどれか。",
+                "choices": ['Webアプリケーションのホスティング', '機械学習モデルの構築・訓練・デプロイ', 'データベースの管理', 'ネットワークの監視'],
+                "answer": 1,
+                "explanation": "Amazon SageMakerは、機械学習モデルの構築、訓練、デプロイを行うフルマネージドサービスです。"
+            },
+            {
+                "id": 283,
+                "question": "AWS Glueの特徴として最も適切なものはどれか。",
+                "choices": ['データベース管理サービス', 'ETL（Extract, Transform, Load）サービス', 'ファイル転送サービス', 'バックアップサービス'],
+                "answer": 1,
+                "explanation": "AWS Glueは、データの抽出、変換、ロードを行うフルマネージドETLサービスです。"
+            },
+            {
+                "id": 284,
+                "question": "Amazon Athenaでクエリできるデータソースとして最も適切でないものはどれか。",
+                "choices": ['Amazon S3', 'Amazon DynamoDB', 'Amazon RDS', 'AWS CloudTrail logs'],
+                "answer": 2,
+                "explanation": "Athenaは主にS3上のデータに対してクエリを実行しますが、RDSに直接クエリすることはできません。"
+            },
+            {
+                "id": 285,
+                "question": "AWS CodeCommitの特徴として最も適切なものはどれか。",
+                "choices": ['継続的インテグレーションサービス', 'プライベートGitリポジトリサービス', 'アプリケーションデプロイサービス', 'コード品質分析サービス'],
+                "answer": 1,
+                "explanation": "AWS CodeCommitは、フルマネージドなプライベートGitリポジトリホスティングサービスです。"
+            },
+            {
+                "id": 286,
+                "question": "AWS CodeBuildの課金モデルはどれか。",
+                "choices": ['月額固定料金', 'ビルド実行時間に基づく従量課金', 'リポジトリ数に基づく課金', '無料で利用可能'],
+                "answer": 1,
+                "explanation": "CodeBuildは、ビルドの実行時間（分単位）に基づいて課金されます。"
+            },
+            {
+                "id": 287,
+                "question": "AWS CodeDeployでサポートされていないデプロイ先はどれか。",
+                "choices": ['EC2インスタンス', 'Lambda関数', 'ECS サービス', 'RDS データベース'],
+                "answer": 3,
+                "explanation": "CodeDeployは、EC2、Lambda、ECSへのデプロイをサポートしていますが、RDSデータベースはサポートしていません。"
+            },
+            {
+                "id": 288,
+                "question": "クラウドコンピューティングの「弾力性（Elasticity）」の特徴として最も適切なものはどれか。",
+                "choices": ['システムの耐障害性', '需要に応じたリソースの自動調整', 'データの整合性', 'ネットワークの安定性'],
+                "answer": 1,
+                "explanation": "弾力性とは、需要の変化に応じてリソースを自動的にスケールアップ・ダウンできる能力のことです。"
+            },
+            {
+                "id": 289,
+                "question": "「Infrastructure as Code (IaC)」の利点として最も適切でないものはどれか。",
+                "choices": ['設定の一貫性', 'バージョン管理', '手動作業の削減', 'ハードウェアコストの削減'],
+                "answer": 3,
+                "explanation": "IaCは、インフラの管理を自動化・標準化しますが、直接的なハードウェアコスト削減が主な目的ではありません。"
+            },
+            {
+                "id": 290,
+                "question": "マイクロサービスアーキテクチャの特徴として最も適切でないものはどれか。",
+                "choices": ['サービスの独立性', '単一のデータベース使用', '個別デプロイ可能', '技術スタックの多様性'],
+                "answer": 1,
+                "explanation": "マイクロサービスでは、各サービスが独自のデータベースを持つことが推奨され、単一のデータベース共有は避けられます。"
+            },
+            {
+                "id": 291,
+                "question": "AWS GuardDutyが検出する脅威の種類として最も適切でないものはどれか。",
+                "choices": ['不正なAPIコール', 'マルウェア感染', 'アプリケーションの脆弱性', '異常なネットワーク通信'],
+                "answer": 2,
+                "explanation": "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"
+            },
+            {
+                "id": 292,
+                "question": "AWS Security Hubの主な機能はどれか。",
+                "choices": ['セキュリティ脅威の自動修復', 'セキュリティ検出結果の一元管理', 'ネットワークトラフィックの監視', 'アクセス権限の管理'],
+                "answer": 1,
+                "explanation": "Security Hubは、複数のセキュリティサービスからの検出結果を一元的に管理・表示するサービスです。"
+            },
+            {
+                "id": 293,
+                "question": "AWS KMSのカスタマーマネージドキーの特徴として最も適切でないものはどれか。",
+                "choices": ['キーの作成・管理が可能', 'キーローテーションの設定が可能', '無料で利用できる', 'キーポリシーの設定が可能'],
+                "answer": 2,
+                "explanation": "カスタマーマネージドキーは有料サービスで、キーの使用量に応じて料金が発生します。"
+            },
+            {
+                "id": 294,
+                "question": "AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。",
+                "choices": ['コスト削減', '継続的改善', '技術的複雑性', 'ベンダーロックイン'],
+                "answer": 1,
+                "explanation": "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"
+            },
+            {
+                "id": 295,
+                "question": "クラウドファーストアプローチの利点として最も重要でないものはどれか。",
+                "choices": ['迅速なスケーリング', '運用コストの削減', '物理的なハードウェア制御', 'イノベーションの加速'],
+                "answer": 2,
+                "explanation": "クラウドファーストでは、物理的なハードウェア制御よりも、柔軟性と効率性が重視されます。"
+            },
+            {
+                "id": 296,
+                "question": "AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。",
+                "choices": ['データセンターのセキュリティ', 'パッチ管理', '物理的なアクセス制御', 'ハードウェアの保守'],
+                "answer": 1,
+                "explanation": "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。"
+            },
+            {
+                "id": 297,
+                "question": "CloudWatchメトリクスのデータポイントの保持期間について最も適切なものはどれか。",
+                "choices": ['すべて15か月間保持される', '解像度によって異なる保持期間', '30日間のみ保持される', '永続的に保持される'],
+                "answer": 1,
+                "explanation": "CloudWatchメトリクスは、データポイントの解像度（1分、5分、1時間等）によって異なる保持期間が設定されています。"
+            },
+            {
+                "id": 298,
+                "question": "CloudWatch Logsのログストリームについて正しい説明はどれか。",
+                "choices": ['複数のソースからのログを混在させることができる', '単一のソースからのログイベントのシーケンス', 'ログの暗号化機能', 'ログの自動削除機能'],
+                "answer": 1,
+                "explanation": "ログストリームは、同じソースからのログイベントのシーケンスです。"
+            },
+            {
+                "id": 299,
+                "question": "CloudWatch Alarmの状態として最も適切でないものはどれか。",
+                "choices": ['OK', 'ALARM', 'INSUFFICIENT_DATA', 'WARNING'],
+                "answer": 3,
+                "explanation": "CloudWatch Alarmの状態は、OK、ALARM、INSUFFICIENT_DATAの3つです。"
+            },
+            {
+                "id": 300,
+                "question": "AWS Cost and Usage Reportの配信頻度として設定できないものはどれか。",
+                "choices": ['毎日', '毎週', '毎月', 'リアルタイム'],
+                "answer": 3,
+                "explanation": "Cost and Usage Reportは、毎日、毎週、毎月の配信頻度を設定できますが、リアルタイム配信はサポートされていません。"
+            }
