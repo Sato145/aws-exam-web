@@ -918,38 +918,20 @@ class AWSExamData:
             }
         ]
         
-        # 300問達成のため、動的に問題を生成
-        base_questions = [
-            ("AWS GuardDutyが検出する脅威の種類として正しくないものはどれか。", ["不正なAPIコール", "マルウェア感染", "アプリケーションの脆弱性", "異常なネットワーク通信"], 2, "GuardDutyは、ネットワークレベルやAPIレベルの脅威を検出しますが、アプリケーションの脆弱性は検出しません。"),
-            ("AWS Well-Architected Frameworkの5つの柱すべてに共通する重要な概念はどれか。", ["コスト削減", "継続的改善", "技術的複雑性", "ベンダーロックイン"], 1, "Well-Architected Frameworkでは、すべての柱において継続的改善が重要な概念として強調されています。"),
-            ("AWS責任共有モデルにおいて、顧客とAWSの両方が責任を持つ領域はどれか。", ["データセンターのセキュリティ", "パッチ管理", "物理的なアクセス制御", "ハードウェアの保守"], 1, "パッチ管理は、インフラレベル（AWS）とOS・アプリケーションレベル（顧客）の両方で責任を分担します。")
-        ]
-        
-        # 76-300の問題を動的生成
-        for i in range(225):  # 76から300まで225問
-            question_id = 76 + i
-            base_index = i % len(base_questions)
-            question, choices, answer, explanation = base_questions[base_index]
-            
-            # 問題文を少し変形
-            if i >= 50:
-                question = question.replace("正しいものはどれか", "最も適切なものはどれか")
-            if i >= 100:
-                question = question.replace("正しくないものはどれか", "最も適切でないものはどれか")
-            if i >= 150:
-                question = question.replace("として", "について")
-                
-            self.questions.append({
-                "id": question_id,
-                "question": question,
-                "choices": choices,
-                "answer": answer,
-                "explanation": explanation
-            })
+
 
     def get_random_questions(self, count=10):
-        """ランダムに問題を取得"""
-        return random.sample(self.questions, min(count, len(self.questions)))
+        """ランダムに問題を取得（重複を避ける）"""
+        # 利用可能な問題数を確認
+        available_count = min(count, len(self.questions))
+        
+        # ランダムに問題を選択（重複なし）
+        selected_questions = random.sample(self.questions, available_count)
+        
+        # 問題をシャッフルしてさらにランダム性を向上
+        random.shuffle(selected_questions)
+        
+        return selected_questions
 
     def get_question_by_id(self, question_id):
         """IDで問題を取得"""
@@ -970,8 +952,33 @@ def index():
 def exam():
     """試験ページ"""
     count = request.args.get('count', 10, type=int)
-    questions = exam_data.get_random_questions(count)
-    return render_template('exam.html', questions=questions)
+    
+    # セッション管理で重複を避ける
+    if 'used_question_ids' not in session:
+        session['used_question_ids'] = []
+    
+    # 使用済み問題IDを取得
+    used_ids = set(session['used_question_ids'])
+    
+    # 未使用の問題を取得
+    available_questions = [q for q in exam_data.questions if q['id'] not in used_ids]
+    
+    # 利用可能な問題が少ない場合はリセット
+    if len(available_questions) < count:
+        session['used_question_ids'] = []
+        available_questions = exam_data.questions
+    
+    # ランダムに問題を選択
+    selected_questions = random.sample(available_questions, min(count, len(available_questions)))
+    
+    # 使用済みIDを更新
+    session['used_question_ids'].extend([q['id'] for q in selected_questions])
+    
+    # セッションが大きくなりすぎないよう制限
+    if len(session['used_question_ids']) > 150:
+        session['used_question_ids'] = session['used_question_ids'][-100:]
+    
+    return render_template('exam.html', questions=selected_questions)
 
 @app.route('/api/questions')
 def api_questions():
