@@ -10,10 +10,22 @@
                     <i class="bi bi-cloud-check"></i> 
                     AWS Certified Cloud Practitioner
                 </h1>
-                <p class="lead mb-4">試験対策問題集で効率的に学習しよう</p>
-                <a href="{{ url_for('exam') }}" class="btn btn-light btn-lg">
-                    <i class="bi bi-play-circle"></i> 問題練習を開始
-                </a>
+                <p class="lead mb-4">300問の豊富な問題集で効率的に学習しよう</p>
+                <!-- クイックスタート（上部に移動） -->
+                <div class="d-flex gap-2 flex-wrap justify-content-center">
+                    <a href="{{ url_for('exam') }}?count=5" class="btn btn-success btn-lg">
+                        <i class="bi bi-lightning"></i> 5問練習
+                    </a>
+                    <a href="{{ url_for('exam') }}?count=10" class="btn btn-light btn-lg">
+                        <i class="bi bi-play"></i> 10問練習
+                    </a>
+                    <a href="{{ url_for('exam') }}?count=20" class="btn btn-outline-light btn-lg">
+                        <i class="bi bi-play"></i> 20問練習
+                    </a>
+                    <a href="{{ url_for('scores') }}" class="btn btn-outline-light btn-lg">
+                        <i class="bi bi-graph-up"></i> 成績確認
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -27,8 +39,8 @@
                 <i class="bi bi-question-circle display-4 text-primary mb-3"></i>
                 <h5 class="card-title">豊富な問題数</h5>
                 <p class="card-text">
-                    AWS Cloud Practitioner試験の全範囲をカバーする
-                    厳選された問題を収録
+                    <strong>300問</strong>でAWS Cloud Practitioner試験の
+                    全範囲を徹底的にカバー
                 </p>
             </div>
         </div>
@@ -124,41 +136,43 @@
     </div>
 </div>
 
-<!-- クイックスタート -->
+<!-- 学習のコツ -->
 <div class="row">
     <div class="col-12">
         <div class="card">
             <div class="card-header">
-                <h3 class="mb-0"><i class="bi bi-rocket"></i> 学習を始めよう</h3>
+                <h3 class="mb-0"><i class="bi bi-lightbulb"></i> 効果的な学習方法</h3>
             </div>
             <div class="card-body">
                 <div class="row">
                     <div class="col-md-8">
                         <p class="mb-3">
                             AWS Certified Cloud Practitioner認定は、AWSクラウドの基礎知識を証明する入門レベルの資格です。
-                            この問題集で効率的に学習し、合格を目指しましょう。
+                            <strong>300問</strong>の豊富な問題で効率的に学習し、合格を目指しましょう。
                         </p>
-                        <div class="d-flex gap-2 flex-wrap">
-                            <a href="{{ url_for('exam') }}?count=5" class="btn btn-success">
-                                <i class="bi bi-lightning"></i> 5問練習
-                            </a>
-                            <a href="{{ url_for('exam') }}?count=10" class="btn btn-primary">
-                                <i class="bi bi-play"></i> 10問練習
-                            </a>
-                            <a href="{{ url_for('exam') }}?count=20" class="btn btn-outline-primary">
-                                <i class="bi bi-play"></i> 20問練習
-                            </a>
-                            <a href="{{ url_for('exam') }}?count=30" class="btn btn-outline-primary">
-                                <i class="bi bi-play"></i> 30問練習
-                            </a>
-                            <a href="{{ url_for('scores') }}" class="btn btn-outline-secondary">
-                                <i class="bi bi-graph-up"></i> 成績確認
-                            </a>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h6><i class="bi bi-lightning text-success"></i> 5問練習</h6>
+                                <p class="small text-muted">通勤・休憩時間に最適（3-5分）</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h6><i class="bi bi-play text-primary"></i> 10問練習</h6>
+                                <p class="small text-muted">日常学習の基本（8-12分）</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h6><i class="bi bi-play text-info"></i> 20問練習</h6>
+                                <p class="small text-muted">集中学習セッション（15-25分）</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h6><i class="bi bi-graph-up text-secondary"></i> 成績確認</h6>
+                                <p class="small text-muted">学習進捗と弱点分析</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-4 text-center">
                         <i class="bi bi-award display-1 text-warning"></i>
-                        <p class="mt-2 text-muted">目指せ合格！</p>
+                        <p class="mt-2 text-muted">目標: 70%以上で合格！</p>
+                        <div class="badge bg-success fs-6">300問収録</div>
                     </div>
                 </div>
             </div>
