@@ -11,7 +11,7 @@
                     AWS Certified Cloud Practitioner
                 </h1>
                 <!-- クイックスタート（上部に移動） -->
-                <div class="d-flex gap-2 flex-wrap justify-content-center">
+                <div class="d-flex gap-2 flex-wrap justify-content-center mb-3">
                     <a href="{{ url_for('exam') }}?count=5" class="btn btn-success btn-lg">
                         <i class="bi bi-lightning"></i> 5問練習
                     </a>
@@ -20,6 +20,14 @@
                     </a>
                     <a href="{{ url_for('exam') }}?count=20" class="btn btn-outline-light btn-lg">
                         <i class="bi bi-play"></i> 20問練習
+                    </a>
+                    <a href="{{ url_for('exam') }}?count=50" class="btn btn-outline-light btn-lg">
+                        <i class="bi bi-collection"></i> 50問練習
+                    </a>
+                </div>
+                <div class="d-flex gap-2 flex-wrap justify-content-center">
+                    <a href="{{ url_for('exam') }}?count=100" class="btn btn-warning btn-lg">
+                        <i class="bi bi-trophy"></i> 100問チャレンジ
                     </a>
                     <a href="{{ url_for('scores') }}" class="btn btn-outline-light btn-lg">
                         <i class="bi bi-graph-up"></i> 成績確認
@@ -38,8 +46,8 @@
                 <i class="bi bi-question-circle display-4 text-primary mb-3"></i>
                 <h5 class="card-title">厳選された問題</h5>
                 <p class="card-text">
-                    <strong>75問</strong>の全て異なる高品質な問題で
-                    AWS試験の重要範囲をカバー
+                    <strong>300問</strong>の全て異なる高品質な問題で
+                    AWS試験の重要範囲を完全カバー
                 </p>
             </div>
         </div>
@@ -147,7 +155,7 @@
                     <div class="col-md-8">
                         <p class="mb-3">
                             AWS Certified Cloud Practitioner認定は、AWSクラウドの基礎知識を証明する入門レベルの資格です。
-                            <strong>75問</strong>の厳選された問題で効率的に学習し、合格を目指しましょう。
+                            <strong>300問</strong>の厳選された問題で効率的に学習し、合格を目指しましょう。
                         </p>
                         <div class="row">
                             <div class="col-md-6">
@@ -163,6 +171,14 @@
                                 <p class="small text-muted">集中学習セッション（15-25分）</p>
                             </div>
                             <div class="col-md-6">
+                                <h6><i class="bi bi-collection text-warning"></i> 50問練習</h6>
+                                <p class="small text-muted">本格的な学習（40-60分）</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h6><i class="bi bi-trophy text-danger"></i> 100問チャレンジ</h6>
+                                <p class="small text-muted">模擬試験レベル（80-120分）</p>
+                            </div>
+                            <div class="col-md-6">
                                 <h6><i class="bi bi-graph-up text-secondary"></i> 成績確認</h6>
                                 <p class="small text-muted">学習進捗と弱点分析</p>
                             </div>
@@ -171,7 +187,7 @@
                     <div class="col-md-4 text-center">
                         <i class="bi bi-award display-1 text-warning"></i>
                         <p class="mt-2 text-muted">目標: 70%以上で合格！</p>
-                        <div class="badge bg-success fs-6">75問収録</div>
+                        <div class="badge bg-success fs-6">300問収録</div>
                     </div>
                 </div>
             </div>
@@ -266,10 +282,12 @@
                         <div class="alert alert-info">
                             <h6><i class="bi bi-lightbulb"></i> 合格のポイント</h6>
                             <ul class="mb-0">
-                                <li><strong>継続学習</strong>: 毎日5-10問ずつ継続的に学習</li>
+                                <li><strong>継続学習</strong>: 毎日5-10問ずつ継続的に学習（300問で長期間飽きずに学習可能）</li>
                                 <li><strong>弱点克服</strong>: 成績画面で苦手分野を特定し重点学習</li>
+                                <li><strong>段階的学習</strong>: 5問→10問→20問→50問→100問と段階的にレベルアップ</li>
                                 <li><strong>実践理解</strong>: AWSコンソールで実際にサービスを触ってみる</li>
                                 <li><strong>解説重視</strong>: 間違えた問題の解説をしっかり読んで理解を深める</li>
+                                <li><strong>豊富な問題</strong>: 300問すべて異なる内容で幅広い知識を習得</li>
                             </ul>
                         </div>
                     </div>
