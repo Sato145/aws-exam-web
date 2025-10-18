@@ -6,11 +6,10 @@
     <div class="col-12">
         <div class="card aws-orange text-center">
             <div class="card-body py-5">
-                <h1 class="display-4 mb-3">
-                    <i class="bi bi-cloud-check"></i> 
+                <h1 class="display-4 mb-4">
+                    <i class="bi bi-cloud-check"></i>
                     AWS Certified Cloud Practitioner
                 </h1>
-                <p class="lead mb-4">300問の豊富な問題集で効率的に学習しよう</p>
                 <!-- クイックスタート（上部に移動） -->
                 <div class="d-flex gap-2 flex-wrap justify-content-center">
                     <a href="{{ url_for('exam') }}?count=5" class="btn btn-success btn-lg">
@@ -173,6 +172,106 @@
                         <i class="bi bi-award display-1 text-warning"></i>
                         <p class="mt-2 text-muted">目標: 70%以上で合格！</p>
                         <div class="badge bg-success fs-6">300問収録</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 試験情報 -->
+<div class="row mb-5">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header aws-blue">
+                <h3 class="mb-0"><i class="bi bi-info-circle"></i> AWS Certified Cloud Practitioner 試験概要</h3>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <h5><i class="bi bi-clipboard-check text-primary"></i> 試験の基本情報</h5>
+                        <table class="table table-sm">
+                            <tr>
+                                <td><strong>試験時間</strong></td>
+                                <td>90分</td>
+                            </tr>
+                            <tr>
+                                <td><strong>問題数</strong></td>
+                                <td>65問（選択問題）</td>
+                            </tr>
+                            <tr>
+                                <td><strong>合格点</strong></td>
+                                <td>700点/1000点（70%）</td>
+                            </tr>
+                            <tr>
+                                <td><strong>受験料</strong></td>
+                                <td>11,000円（税別）</td>
+                            </tr>
+                            <tr>
+                                <td><strong>有効期限</strong></td>
+                                <td>3年間</td>
+                            </tr>
+                            <tr>
+                                <td><strong>受験方式</strong></td>
+                                <td>テストセンター・オンライン</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <h5><i class="bi bi-pie-chart text-success"></i> 出題範囲と配点</h5>
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between">
+                                <span><strong>1. クラウドの概念</strong></span>
+                                <span class="badge bg-primary">26%</span>
+                            </div>
+                            <div class="progress mb-2" style="height: 8px;">
+                                <div class="progress-bar" style="width: 26%"></div>
+                            </div>
+                            <small class="text-muted">クラウドコンピューティングの定義、AWSクラウドの価値提案、クラウド経済学</small>
+                        </div>
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between">
+                                <span><strong>2. セキュリティとコンプライアンス</strong></span>
+                                <span class="badge bg-danger">25%</span>
+                            </div>
+                            <div class="progress mb-2" style="height: 8px;">
+                                <div class="progress-bar bg-danger" style="width: 25%"></div>
+                            </div>
+                            <small class="text-muted">責任共有モデル、セキュリティサービス、コンプライアンス</small>
+                        </div>
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between">
+                                <span><strong>3. テクノロジー</strong></span>
+                                <span class="badge bg-success">33%</span>
+                            </div>
+                            <div class="progress mb-2" style="height: 8px;">
+                                <div class="progress-bar bg-success" style="width: 33%"></div>
+                            </div>
+                            <small class="text-muted">AWSコアサービス、グローバルインフラ、サポートリソース</small>
+                        </div>
+                        <div class="mb-3">
+                            <div class="d-flex justify-content-between">
+                                <span><strong>4. 請求と料金</strong></span>
+                                <span class="badge bg-warning">16%</span>
+                            </div>
+                            <div class="progress mb-2" style="height: 8px;">
+                                <div class="progress-bar bg-warning" style="width: 16%"></div>
+                            </div>
+                            <small class="text-muted">料金モデル、コスト管理、サポートプラン</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="alert alert-info">
+                            <h6><i class="bi bi-lightbulb"></i> 合格のポイント</h6>
+                            <ul class="mb-0">
+                                <li><strong>継続学習</strong>: 毎日5-10問ずつ継続的に学習</li>
+                                <li><strong>弱点克服</strong>: 成績画面で苦手分野を特定し重点学習</li>
+                                <li><strong>実践理解</strong>: AWSコンソールで実際にサービスを触ってみる</li>
+                                <li><strong>解説重視</strong>: 間違えた問題の解説をしっかり読んで理解を深める</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
